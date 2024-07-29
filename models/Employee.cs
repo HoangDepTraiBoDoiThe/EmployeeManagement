@@ -6,28 +6,53 @@ namespace EmployeeManagement.models;
 public class Employee
 {
     [Key] 
-    [ScaffoldColumn(false)]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    private int Id { get; set; }
+    public int Id { get; set; }
 
     [Required]
+    [StringLength(20)]
     [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
-    private string EmployeeRole { get; set; } = null!;
+    public string EmployeeRole { get; set; } = null!;
 
     [DataType(DataType.PhoneNumber)]
     [StringLength(11, MinimumLength = 11)]
-    private int? PhoneNumber { get; set; }
+    public int? PhoneNumber { get; set; }
 
     [Required]
+    [StringLength(100)]
     [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
-    private string EmployeeName { get; set; } = null!;
+    public string EmployeeName { get; set; } = null!;
 
     [Required] [DataType(DataType.Date)] private DateTime StartDate { get; set; }
     [DataType(DataType.Date)] private DateTime? QuiteDate { get; set; }
 
     // User - one to one
-    private string UserId { get; set; } = null!;
-    private User User { get; set; } = null!;
+    public int UserId { get; set; }
+    public User User { get; set; } = null!;
+
+    public Employee(int id, string employeeRole, int? phoneNumber, string employeeName, DateTime startDate, DateTime? quiteDate, int userId, User user)
+    {
+        Id = id;
+        EmployeeRole = employeeRole;
+        PhoneNumber = phoneNumber;
+        EmployeeName = employeeName;
+        StartDate = startDate;
+        QuiteDate = quiteDate;
+        UserId = userId;
+        User = user;
+    }
     
-    
+    public Employee(string employeeRole, int? phoneNumber, string employeeName, DateTime startDate, DateTime? quiteDate, int userId, User user)
+    {
+        EmployeeRole = employeeRole;
+        PhoneNumber = phoneNumber;
+        EmployeeName = employeeName;
+        StartDate = startDate;
+        QuiteDate = quiteDate;
+        UserId = userId;
+        User = user;
+    }
+
+    public Employee()
+    {
+    }
 }
