@@ -16,4 +16,5 @@ public class User
     [Required(ErrorMessage = "Password is required.")]
     private string Password { get; set; }
     
+    private Employee? UserEmployee { get; set; }
 }
