@@ -17,4 +17,7 @@ public class User
     private string Password { get; set; }
     
     private Employee? UserEmployee { get; set; }
+    
+    // Role
+    private List<Role> Roles { get; } = [];
 }
