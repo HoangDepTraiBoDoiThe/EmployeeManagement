@@ -1,10 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EmployeeManagement.models;
 
 public class User
 {
-    [Key]
+    [ScaffoldColumn(false)]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     private int Id { get; set; }
     
     [StringLength(100, MinimumLength = 2)]
