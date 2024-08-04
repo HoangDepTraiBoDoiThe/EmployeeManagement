@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection.Metadata;
 
 namespace EmployeeManagement.models;
 
@@ -24,7 +25,9 @@ public class Employee
 
     [Required] [DataType(DataType.Date)] private DateTime StartDate { get; set; }
     [DataType(DataType.Date)] private DateTime? QuiteDate { get; set; }
+    public Blob ProfilePicture { get; set; }
 
+    
     // User - one to one
     public int UserId { get; set; }
     public User User { get; set; } = null!;

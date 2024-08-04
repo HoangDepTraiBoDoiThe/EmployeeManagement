@@ -63,14 +63,6 @@
             <mxPoint x="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5P663EwDF2cx9lBnHZDV-8" target="5P663EwDF2cx9lBnHZDV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="5P663EwDF2cx9lBnHZDV-3">
-          <mxGeometry x="0.3162" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-37" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Employee&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="290" y="310" width="100" height="50" as="geometry" />
         </mxCell>
@@ -706,41 +698,6 @@
         </mxCell>
         <mxCell id="xSsR4cx_0JswZfBIH0DQ-1" value="Wage Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" parent="1" vertex="1">
           <mxGeometry x="505" y="-210" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-1" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Profile picture&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="290" y="534.43" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5P663EwDF2cx9lBnHZDV-4" target="5P663EwDF2cx9lBnHZDV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-4" value="Profile picture Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" vertex="1" parent="1">
-          <mxGeometry x="170" y="534.43" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-6" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5P663EwDF2cx9lBnHZDV-5" target="5P663EwDF2cx9lBnHZDV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-5" value="Image" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="210" y="484.42999999999995" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-9" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="O5-Aam5vRArmxlNxaEpb-37" target="5P663EwDF2cx9lBnHZDV-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="360" as="sourcePoint" />
-            <mxPoint x="340" y="534" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-11" value="0,1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="5P663EwDF2cx9lBnHZDV-9">
-          <mxGeometry x="-0.5867" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-8" value="Has" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="315" y="420" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5P663EwDF2cx9lBnHZDV-12" target="5P663EwDF2cx9lBnHZDV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5P663EwDF2cx9lBnHZDV-12" value="Employee Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="369" y="484.43" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
