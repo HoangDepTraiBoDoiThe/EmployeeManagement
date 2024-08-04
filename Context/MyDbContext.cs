@@ -32,10 +32,11 @@ public partial class MyDbContext : DbContext
             .HasMany(e => e.Users)
             .WithMany(e => e.Roles)
             .UsingEntity<UserRole>();
+        
         modelBuilder.Entity<Employee>()
             .HasOne(e => e.User)
             .WithOne(u => u.UserEmployee)
             .IsRequired(true)
-            .HasForeignKey<Employee>(f => f.UserId);
+            .HasForeignKey<Employee>(employee => employee.UserId);
     }
 }

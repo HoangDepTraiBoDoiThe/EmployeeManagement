@@ -29,6 +29,10 @@ public class Employee
     public int UserId { get; set; }
     public User User { get; set; } = null!;
 
+    public Employee()
+    {
+    }
+    
     public Employee(int id, string employeeRole, int? phoneNumber, string employeeName, DateTime startDate, DateTime? quiteDate, int userId, User user)
     {
         Id = id;
@@ -50,9 +54,5 @@ public class Employee
         QuiteDate = quiteDate;
         UserId = userId;
         User = user;
-    }
-
-    public Employee()
-    {
     }
 }

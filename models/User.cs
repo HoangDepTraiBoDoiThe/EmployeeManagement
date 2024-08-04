@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EmployeeManagement.models;
 
@@ -23,17 +22,16 @@ public class User
     // Role
     public List<Role> Roles { get; } = [];
 
+
+    public User()
+    {
+    }
     public User(string userName, string password, Employee? userEmployee)
     {
         UserName = userName;
         Password = password;
         UserEmployee = userEmployee;
     }
-
-    public User()
-    {
-    }
-
     public User(int id, string userName, string password, Employee? userEmployee)
     {
         Id = id;
