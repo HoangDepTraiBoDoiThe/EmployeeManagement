@@ -16,45 +16,51 @@ public class Employee
 
     [DataType(DataType.PhoneNumber)]
     [StringLength(11, MinimumLength = 11)]
-    public int? PhoneNumber { get; set; }
+    public string? PhoneNumber { get; set; }
 
     [Required]
     [StringLength(100)]
     [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
     public string EmployeeName { get; set; } = null!;
 
-    [Required] [DataType(DataType.Date)] private DateTime StartDate { get; set; }
-    [DataType(DataType.Date)] private DateTime? QuiteDate { get; set; }
+    [Required] 
+    [DataType(DataType.Date)] 
+    public DateTime StartDate { get; set; }
+    [DataType(DataType.Date)] 
+    public DateTime? QuitDate { get; set; }
     public Blob ProfilePicture { get; set; }
-
     
     // User - one to one
     public int UserId { get; set; }
+    [ForeignKey(nameof(UserId))]
     public User User { get; set; } = null!;
 
+    // EmployeeWage - one to many
+    public ICollection<EmployeeWage> Wages { get;} = new List<EmployeeWage>();
+    
     public Employee()
     {
     }
     
-    public Employee(int id, string employeeRole, int? phoneNumber, string employeeName, DateTime startDate, DateTime? quiteDate, int userId, User user)
+    public Employee(int id, string employeeRole, string? phoneNumber, string employeeName, DateTime startDate, DateTime? quitDate, int userId, User user)
     {
         Id = id;
         EmployeeRole = employeeRole;
         PhoneNumber = phoneNumber;
         EmployeeName = employeeName;
         StartDate = startDate;
-        QuiteDate = quiteDate;
+        QuitDate = quitDate;
         UserId = userId;
         User = user;
     }
     
-    public Employee(string employeeRole, int? phoneNumber, string employeeName, DateTime startDate, DateTime? quiteDate, int userId, User user)
+    public Employee(string employeeRole, string? phoneNumber, string employeeName, DateTime startDate, DateTime? quitDate, int userId, User user)
     {
         EmployeeRole = employeeRole;
         PhoneNumber = phoneNumber;
         EmployeeName = employeeName;
         StartDate = startDate;
-        QuiteDate = quiteDate;
+        QuitDate = quitDate;
         UserId = userId;
         User = user;
     }
