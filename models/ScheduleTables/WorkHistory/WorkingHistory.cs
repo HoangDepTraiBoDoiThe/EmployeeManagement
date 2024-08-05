@@ -20,4 +20,7 @@ public class WorkingHistory
     
     // One-to-many OnLeaveHistory
     public List<OnLeaveHistory> OnLeaveHistories { get; } = null!;
+    
+    // One-to-many WorkingDayHistory
+    public List<WorkingDayHistory> WorkingDayHistories { get; } = null!;
 }
