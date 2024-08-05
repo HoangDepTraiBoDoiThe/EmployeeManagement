@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EmployeeManagement.models.ScheduleTables.WorkHistory;
 
-public class WorkingHistory
+public class OnLeaveHistory
 {
     [Key]
     public int Id { get; set; }
@@ -12,12 +12,12 @@ public class WorkingHistory
     public DateOnly FromDate { get; set; }
     [DataType(DataType.Date)]
     public DateOnly ToDate { get; set; }
+    [StringLength(200)]
+    public string? Reason { get; set; }
+    public bool DoPunishment { get; set; } = true;
     
-    // Many-to-one BaseWorkSchedule
-    public int BaseWorkScheduleId { get; set; }
-    [ForeignKey(nameof(BaseWorkScheduleId))]
-    public BaseWorkSchedule WorkSchedule { get; set; } = null!;
-    
-    // One-to-many OnLeaveHistory
-    public List<OnLeaveHistory> OnLeaveHistories { get; } = null!;
+    // Many-to-one WorkingHistory
+    public int WorkingHistoryId { get; set; }
+    [ForeignKey(nameof(WorkingHistoryId))]
+    public WorkingHistory WorkingHistory { get; set; } = null!;
 }
