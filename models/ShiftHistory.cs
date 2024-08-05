@@ -12,4 +12,13 @@ public class ShiftHistory
     public int ShiftScheduleId { get; set; }
     [ForeignKey(nameof(ShiftScheduleId))]
     public ShiftSchedule ShiftSchedule { get; set; } = null!;
+    
+    // One-to-many WorkOverTime
+    public List<WorkOverTime> WorkOverTimes { get; }
+    
+    // One-to-many ShiftPenalty
+    public List<ShiftPenalty> ShiftPenalties { get; }
+    
+    // One-to-many ShiftBonus
+    public List<ShiftBonus> ShiftBonuses { get; }
 }
