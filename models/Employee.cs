@@ -33,4 +33,7 @@ public class Employee
 
     // One to many Employee role 
     public List<EmployeeRole> EmployeeRoles { get; } = [];
+    
+    // One to one WorkSchedule
+    public WorkSchedule? WorkSchedule { get; set; }
 }
