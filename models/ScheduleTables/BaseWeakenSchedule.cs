@@ -10,7 +10,7 @@ public class BaseWeakenSchedule
     public int Id { get; set; }
     
     [Required]
-    public Weeken Weeken { get; set; }
+    public DayOfWeek DayOfWeek { get; set; }
     
     // Many-to-one BaseWorkSchedule
     public int WorkScheduleId { get; set; }
