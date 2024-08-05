@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using EmployeeManagement.Constants;
+using EmployeeManagement.models.JointTables;
 
 namespace EmployeeManagement.models;
 
@@ -20,6 +21,8 @@ public class EmployeeWage
     [ForeignKey(nameof(EmployeeId))]
     public Employee Employee { get; set; } = null!;
 
+    public List<MonthlyBonus> MonthlyBonuses { get; } = [];
+    
     public EmployeeWage()
     {
     }

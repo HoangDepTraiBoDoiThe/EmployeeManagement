@@ -28,7 +28,7 @@ public class Employee
     public DateTime StartDate { get; set; }
     [DataType(DataType.Date)] 
     public DateTime? QuitDate { get; set; }
-    public Blob ProfilePicture { get; set; }
+    public byte[] ProfilePicture { get; set; }
     
     // User - one to one
     public int UserId { get; set; }

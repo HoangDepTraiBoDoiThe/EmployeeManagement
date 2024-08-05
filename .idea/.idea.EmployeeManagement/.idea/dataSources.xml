@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="EmployeeManagementDB@localhost" uuid="3fb8b71a-9f0c-4fc4-affc-21857a073d48">
+    <data-source source="LOCAL" name="EmployeeManagement@localhost" uuid="3fb8b71a-9f0c-4fc4-affc-21857a073d48">
       <driver-ref>sqlserver.jb</driver-ref>
       <synchronize>true</synchronize>
       <configured-by-url>true</configured-by-url>
       <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
-      <jdbc-url>Server=localhost;Database=EmployeeManagementDB;Trusted_Connection=True;MultipleActiveResultSets=True;Encrypt=False;</jdbc-url>
+      <jdbc-url>Server=localhost;Database=EmployeeManagement;Trusted_Connection=True;MultipleActiveResultSets=True;Encrypt=False;</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

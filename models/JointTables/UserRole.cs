@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagement.models;
+﻿namespace EmployeeManagement.models.JointTables;
 
 public class UserRole
 {
