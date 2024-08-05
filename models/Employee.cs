@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection.Metadata;
+using EmployeeManagement.models.JointTables;
 
 namespace EmployeeManagement.models;
 
@@ -31,6 +32,6 @@ public class Employee
     [ForeignKey(nameof(UserId))]
     public User User { get; set; } = null!;
 
-    // Many-to-many EmployeeRole 
-    public List<EmployeeRole> EmployeeRoles { get; } = [];
+    // One-to-many EmployeeEmployeeRole
+    public List<EmployeeEmployeeRole> EmployeeEmployeeRoles { get; } = [];
 }

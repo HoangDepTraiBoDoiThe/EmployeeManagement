@@ -42,10 +42,5 @@ public class MyDbContext : DbContext
         modelBuilder.Entity<EmployeeWage>()
             .HasMany(emp => emp.MonthlyBonuses)
             .WithMany(mon => mon.EmployeeWages);
-
-        modelBuilder.Entity<Employee>()
-            .HasMany(emp => emp.EmployeeRoles)
-            .WithMany(empRole => empRole.Employees)
-            .UsingEntity<EmployeeEmployeeRole>();
     }
 }

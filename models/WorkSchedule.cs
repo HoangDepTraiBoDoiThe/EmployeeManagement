@@ -1,18 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using EmployeeManagement.models.JointTables;
 
 namespace EmployeeManagement.models;
 
 public class WorkSchedule
 {
     [Key]
-    public int WorkScheduleId { get; set; }
+    public int Id { get; set; }
     
     // One to many ScheduleDay
     public List<ScheduleDay> ScheduleDays { get; } = null!;
     
-    // One-to-one Employee
+    // One-to-one EmployeeEmployeeRole
+    public int EmployeeRoleId { get; set; }
     public int EmployeeId { get; set; }
-    [ForeignKey(nameof(EmployeeId))]
-    public Employee Employee { get; set; } = null!;
+    public EmployeeEmployeeRole EmployeeEmployeeRole { get; set; } = null!;
 }

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.6">
   <diagram name="Trang-1" id="Bt6A5V-XEVuFtGxONGSO">
-    <mxGraphModel dx="1042" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="744" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-43" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Penalty&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1159.62" y="830.0000000000002" width="100" height="50" as="geometry" />
+          <mxGeometry x="1159.25" y="830.0000000000002" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-52" value="Role Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
           <mxGeometry x="14.75" y="360" width="90" height="50" as="geometry" />
@@ -116,13 +116,13 @@
           <mxGeometry x="67" y="30" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-62" value="Employee name" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="365" y="362.5" width="90" height="50" as="geometry" />
+          <mxGeometry x="382.4" y="362.5" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-67" value="Phone number" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="382.4" y="280" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-71" value="Start date" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="192.4" y="347.5" width="90" height="50" as="geometry" />
+          <mxGeometry x="189.75" y="330" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-73" value="Quite date" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="270" y="380" width="90" height="50" as="geometry" />
@@ -194,10 +194,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-89" value="User Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="235" y="30" width="90" height="50" as="geometry" />
+          <mxGeometry x="217.15" y="40" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-90" value="Password" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="225" y="150" width="90" height="50" as="geometry" />
+          <mxGeometry x="224.75" y="148.75" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-93" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-99" target="O5-Aam5vRArmxlNxaEpb-79" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -208,10 +208,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-97" value="Employee Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="180" y="280" width="90" height="50" as="geometry" />
+          <mxGeometry x="217.15" y="260" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-99" value="User name" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="340" y="30" width="90" height="50" as="geometry" />
+          <mxGeometry x="330" y="30" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-100" value="Wage Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
           <mxGeometry x="510" y="709.6700000000001" width="90" height="50" as="geometry" />
@@ -220,7 +220,7 @@
           <mxGeometry x="1074.25" y="792.1700000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-120" value="Panlty Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="1255.25" y="859.6700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="1260" y="859.6700000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-148" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-142" target="O5-Aam5vRArmxlNxaEpb-147" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -229,7 +229,7 @@
           <mxGeometry x="855" y="310.00000000000006" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-147" value="Work schedule Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="930.25" y="370.00000000000006" width="90" height="50" as="geometry" />
+          <mxGeometry x="910" y="260.00000000000006" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-154" value="Pay frequency" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="710" y="659.6700000000001" width="90" height="50" as="geometry" />
@@ -453,7 +453,7 @@
           <mxGeometry x="1319.25" y="664.6700000000001" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-355" value="Penalty reason" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1160" y="890.0000000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="1164.25" y="890.0000000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-357" value="Should punish" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1060" y="849.6700000000001" width="90" height="50" as="geometry" />
@@ -490,10 +490,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-368" value="Has" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1185" y="759.6700000000001" width="50" height="50" as="geometry" />
+          <mxGeometry x="1185" y="749.6700000000001" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-372" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Shift history&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" parent="1" vertex="1">
-          <mxGeometry x="1255.25" y="799.6700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="1260" y="799.6700000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-376" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-359" target="O5-Aam5vRArmxlNxaEpb-375" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -542,7 +542,7 @@
           <mxGeometry x="479.75" y="669.6700000000001" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-398" value="Employee Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" parent="1" vertex="1">
-          <mxGeometry x="345" y="150" width="90" height="50" as="geometry" />
+          <mxGeometry x="350" y="148.75" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-406" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-405" target="O5-Aam5vRArmxlNxaEpb-384" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -599,8 +599,8 @@
         <mxCell id="1yOXm2m84MejSoIjWwgt-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="1yOXm2m84MejSoIjWwgt-1" target="O5-Aam5vRArmxlNxaEpb-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1yOXm2m84MejSoIjWwgt-1" value="Employee role" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="389.75" y="220" width="90" height="50" as="geometry" />
+        <mxCell id="1yOXm2m84MejSoIjWwgt-1" value="Employee photo" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="340" y="230" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1yOXm2m84MejSoIjWwgt-15" value="Work schedule Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" parent="1" vertex="1">
           <mxGeometry x="1110" y="370.00000000000006" width="90" height="50" as="geometry" />
@@ -612,7 +612,7 @@
           <mxGeometry x="1380" y="260.00000000000006" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1yOXm2m84MejSoIjWwgt-19" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Working Day History&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" parent="1" vertex="1">
-          <mxGeometry x="1220" y="730.0000000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="1250" y="714.6700000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1yOXm2m84MejSoIjWwgt-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="1yOXm2m84MejSoIjWwgt-21" target="O5-Aam5vRArmxlNxaEpb-341" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -682,7 +682,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-16" value="Employee role id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" vertex="1" parent="1">
-          <mxGeometry x="487.63" y="108.75" width="90" height="50" as="geometry" />
+          <mxGeometry x="487.63" y="98.75" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-20" target="uetQmwVORCMHqKW5TT_V-1">
           <mxGeometry relative="1" as="geometry" />
@@ -726,7 +726,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-37" value="Employee Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="507.38" y="40" width="90" height="50" as="geometry" />
+          <mxGeometry x="529.75" y="40" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-47" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-30" target="uetQmwVORCMHqKW5TT_V-46">
           <mxGeometry relative="1" as="geometry">
@@ -781,26 +781,14 @@
         <mxCell id="uetQmwVORCMHqKW5TT_V-55" value="Has" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="750" y="310" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uetQmwVORCMHqKW5TT_V-60" value="Employee role id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" vertex="1" parent="1">
+        <mxCell id="uetQmwVORCMHqKW5TT_V-60" value="Employee role id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="640" y="362.5" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-63" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-62" target="uetQmwVORCMHqKW5TT_V-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uetQmwVORCMHqKW5TT_V-62" value="Employee Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" vertex="1" parent="1">
+        <mxCell id="uetQmwVORCMHqKW5TT_V-62" value="Employee Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="535" y="360" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="uetQmwVORCMHqKW5TT_V-66" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-64" target="O5-Aam5vRArmxlNxaEpb-142">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uetQmwVORCMHqKW5TT_V-64" value="Employee role id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="910" y="250" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="uetQmwVORCMHqKW5TT_V-67" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-65" target="O5-Aam5vRArmxlNxaEpb-142">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uetQmwVORCMHqKW5TT_V-65" value="Employee Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="810" y="250" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-70" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="O5-Aam5vRArmxlNxaEpb-142" target="uetQmwVORCMHqKW5TT_V-68">
           <mxGeometry relative="1" as="geometry">
@@ -953,6 +941,18 @@
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-120" value="To date" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="775.25" y="430" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uetQmwVORCMHqKW5TT_V-132" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-128" target="O5-Aam5vRArmxlNxaEpb-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uetQmwVORCMHqKW5TT_V-128" value="Work schedule Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="810" y="260.00000000000006" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uetQmwVORCMHqKW5TT_V-131" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-130" target="uetQmwVORCMHqKW5TT_V-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uetQmwVORCMHqKW5TT_V-130" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee role Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

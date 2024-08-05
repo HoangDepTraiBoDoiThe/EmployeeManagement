@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using EmployeeManagement.models.JointTables;
 
 namespace EmployeeManagement.models;
 
@@ -11,7 +12,7 @@ public class EmployeeRole
     [StringLength(50, ErrorMessage = "50 characters maximum")]
     public string RoleName { get; set; } = null!;
     public string? RoleDescription { get; set; }
-    
-    // Many-to-many Employee
-    public List<Employee> Employees { get; } = [];
+
+    // One-to-many EmployeeEmployeeRole
+    public List<EmployeeEmployeeRole> EmployeeEmployeeRoles { get; } = [];
 }
