@@ -13,5 +13,6 @@ public class MonthlyBonus
     public decimal BonusAmount { get; set; }
     public string? BonusReason {get; set;}
 
+    // Many-to-many EmployeeWage
     public List<EmployeeWage> EmployeeWages { get; } = null!;
 }

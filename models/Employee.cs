@@ -9,11 +9,6 @@ public class Employee
     [Key] 
     public int Id { get; set; }
 
-    [Required]
-    [StringLength(20)]
-    [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
-    public string EmployeeRole { get; set; } = null!;
-
     [DataType(DataType.PhoneNumber)]
     [StringLength(11, MinimumLength = 11)]
     public string? PhoneNumber { get; set; }
@@ -28,40 +23,14 @@ public class Employee
     public DateTime StartDate { get; set; }
     [DataType(DataType.Date)] 
     public DateTime? QuitDate { get; set; }
-    public byte[] ProfilePicture { get; set; }
+
+    public byte[] ProfilePicture { get; set; } = [];
     
-    // User - one to one
+    // One to one User 
     public int UserId { get; set; }
     [ForeignKey(nameof(UserId))]
     public User User { get; set; } = null!;
 
-    // EmployeeWage - one to many
-    public ICollection<EmployeeWage> Wages { get;} = new List<EmployeeWage>();
-    
-    public Employee()
-    {
-    }
-    
-    public Employee(int id, string employeeRole, string? phoneNumber, string employeeName, DateTime startDate, DateTime? quitDate, int userId, User user)
-    {
-        Id = id;
-        EmployeeRole = employeeRole;
-        PhoneNumber = phoneNumber;
-        EmployeeName = employeeName;
-        StartDate = startDate;
-        QuitDate = quitDate;
-        UserId = userId;
-        User = user;
-    }
-    
-    public Employee(string employeeRole, string? phoneNumber, string employeeName, DateTime startDate, DateTime? quitDate, int userId, User user)
-    {
-        EmployeeRole = employeeRole;
-        PhoneNumber = phoneNumber;
-        EmployeeName = employeeName;
-        StartDate = startDate;
-        QuitDate = quitDate;
-        UserId = userId;
-        User = user;
-    }
+    // One to many Employee role 
+    public List<EmployeeRole> EmployeeRoles { get; } = [];
 }
