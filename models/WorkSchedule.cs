@@ -8,6 +8,9 @@ public class WorkSchedule
     [Key]
     public int WorkScheduleId { get; set; }
     
+    // One to many ScheduleDay
+    public List<ScheduleDay> ScheduleDays { get; } = null!;
+    
     // One-to-one Employee
     public int EmployeeId { get; set; }
     [ForeignKey(nameof(EmployeeId))]
