@@ -8,10 +8,10 @@ public class WorkingHistory
     [Key]
     public int Id { get; set; }
     
-    [DataType(DataType.Date)]
-    public DateOnly FromDate { get; set; }
-    [DataType(DataType.Date)]
-    public DateOnly ToDate { get; set; }
+    [Required]
+    public DateTime FromTime { get; set; }
+    [Required]
+    public DateOnly ToTime { get; set; }
     
     // Many-to-one BaseWorkSchedule
     public int BaseWorkScheduleId { get; set; }

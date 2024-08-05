@@ -8,10 +8,12 @@ public class PayRoll
 {
     [Key] 
     public int Id;
+    
     [Required] 
     public DateTime PayDate { get; set; }
+    [Required] 
     [Column(TypeName = "decimal(18, 2)")]
-    [Required] public decimal TotalEarnings { get; set; }
+    public decimal TotalEarnings { get; set; }
     
     // Many-to-one EmployeeWage
     public int EmployeeWageId { get; set; }
