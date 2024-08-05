@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using EmployeeManagement.models.JointTables;
 
-namespace EmployeeManagement.models;
+namespace EmployeeManagement.models.ScheduleTables;
 
 public class BaseWorkSchedule
 {

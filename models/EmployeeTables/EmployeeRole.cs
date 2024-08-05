@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using EmployeeManagement.models.JointTables;
 
-namespace EmployeeManagement.models;
+namespace EmployeeManagement.models.EmployeeTables;
 
 public class EmployeeRole
 {

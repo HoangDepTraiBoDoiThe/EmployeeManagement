@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using EmployeeManagement.models.ScheduleTables;
 
 namespace EmployeeManagement.models;
 

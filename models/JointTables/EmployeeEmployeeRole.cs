@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using EmployeeManagement.models.EmployeeTables;
 
 namespace EmployeeManagement.models.JointTables;
 

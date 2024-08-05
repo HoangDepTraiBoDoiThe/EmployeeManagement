@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EmployeeManagement.models;
+namespace EmployeeManagement.models.ScheduleTables;
 
 public class BaseShiftSchedule
 {

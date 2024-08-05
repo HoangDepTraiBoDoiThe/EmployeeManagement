@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Reflection.Metadata;
+using EmployeeManagement.models.ApplicationUserTables;
 using EmployeeManagement.models.JointTables;
 
-namespace EmployeeManagement.models;
+namespace EmployeeManagement.models.EmployeeTables;
 
 public class Employee
 {

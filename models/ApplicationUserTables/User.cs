@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using EmployeeManagement.models.EmployeeTables;
 
-namespace EmployeeManagement.models;
+namespace EmployeeManagement.models.ApplicationUserTables;
 
 public class User
 {

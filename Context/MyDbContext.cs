@@ -1,4 +1,6 @@
 ﻿using EmployeeManagement.models;
+using EmployeeManagement.models.ApplicationUserTables;
+using EmployeeManagement.models.EmployeeTables;
 using EmployeeManagement.models.JointTables;
 using Microsoft.EntityFrameworkCore;
 

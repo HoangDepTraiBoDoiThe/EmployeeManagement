@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using EmployeeManagement.Constants;
+using EmployeeManagement.models.WageTables;
 
-namespace EmployeeManagement.models;
+namespace EmployeeManagement.models.EmployeeTables;
 
 public class EmployeeWage
 {

@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EmployeeManagement.models;
+namespace EmployeeManagement.models.ApplicationUserTables;
 
 public class Role
 {

@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using EmployeeManagement.models.EmployeeTables;
 
-namespace EmployeeManagement.models;
+namespace EmployeeManagement.models.WageTables;
 
 public class PayRoll
 {
