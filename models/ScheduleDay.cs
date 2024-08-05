@@ -17,6 +17,6 @@ public class ScheduleDay
     [ForeignKey(nameof(WorkScheduleId))]
     public WorkSchedule WorkSchedule { get; set; } = null!;
     
-    // One-to-many WorkingTimeSchedule
-    public List<WorkingTimeSchedule> WorkingTimeSchedules { get; } = null!;
+    // One-to-many ShiftSchedule
+    public List<ShiftSchedule> WorkingTimeSchedules { get; } = null!;
 }

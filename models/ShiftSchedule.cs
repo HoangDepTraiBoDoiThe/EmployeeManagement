@@ -2,13 +2,16 @@
 
 namespace EmployeeManagement.models;
 
-public class WorkingTimeSchedule
+public class ShiftSchedule
 {
     [Key]
-    public int WorkingTimeScheduleId { get; set; }
+    public int Id { get; set; }
     public DateTime StartTime { get; set; }
     public DateTime EndTime { get; set; }
     public string? Description { get; set; }
+    
+    // One to many ShiftHistory
+    public List<ShiftHistory> ShiftHistories { get; } = null!;
     
     // Many-to-one ScheduleDay
     public int ScheduleDayId { get; set; }
