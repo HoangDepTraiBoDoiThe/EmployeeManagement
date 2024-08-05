@@ -31,12 +31,6 @@ public class Employee
     [ForeignKey(nameof(UserId))]
     public User User { get; set; } = null!;
 
-    // One to many Employee role 
+    // Many-to-many EmployeeRole 
     public List<EmployeeRole> EmployeeRoles { get; } = [];
-    
-    // One to one WorkSchedule
-    public WorkSchedule? WorkSchedule { get; set; }
-    
-    // One to one OnLeave
-    public OnLeave? OnLeave { get; set; }
 }
