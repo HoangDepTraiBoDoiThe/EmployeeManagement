@@ -8,10 +8,10 @@ public class ShiftHistory
     public DateTime Checkin { get; set; }
     public DateTime Checkout { get; set; }
     
-    // Many-to-one ShiftSchedule
+    // Many-to-one BaseShiftSchedule
     public int ShiftScheduleId { get; set; }
     [ForeignKey(nameof(ShiftScheduleId))]
-    public ShiftSchedule ShiftSchedule { get; set; } = null!;
+    public BaseShiftSchedule BaseShiftSchedule { get; set; } = null!;
     
     // One-to-many WorkOverTime
     public List<WorkOverTime> WorkOverTimes { get; }

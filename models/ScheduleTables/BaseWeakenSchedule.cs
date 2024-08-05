@@ -4,7 +4,7 @@ using EmployeeManagement.Constants;
 
 namespace EmployeeManagement.models;
 
-public class ScheduleDay
+public class BaseWeakenSchedule
 {
     [Key]
     public int Id { get; set; }
@@ -12,11 +12,11 @@ public class ScheduleDay
     [Required]
     public Weeken WeekenDay { get; set; }
     
-    // Many-to-one WorkSchedule
+    // Many-to-one BaseWorkSchedule
     public int WorkScheduleId { get; set; }
     [ForeignKey(nameof(WorkScheduleId))]
-    public WorkSchedule WorkSchedule { get; set; } = null!;
+    public BaseWorkSchedule BaseWorkSchedule { get; set; } = null!;
     
-    // One-to-many ShiftSchedule
-    public List<ShiftSchedule> WorkingTimeSchedules { get; } = null!;
+    // One-to-many BaseShiftSchedule
+    public List<BaseShiftSchedule> WorkingTimeSchedules { get; } = null!;
 }

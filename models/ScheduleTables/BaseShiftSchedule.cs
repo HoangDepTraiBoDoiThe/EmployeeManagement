@@ -2,7 +2,7 @@
 
 namespace EmployeeManagement.models;
 
-public class ShiftSchedule
+public class BaseShiftSchedule
 {
     [Key]
     public int Id { get; set; }
@@ -13,7 +13,7 @@ public class ShiftSchedule
     // One to many ShiftHistory
     public List<ShiftHistory> ShiftHistories { get; } = null!;
     
-    // Many-to-one ScheduleDay
+    // Many-to-one BaseWeakenSchedule
     public int ScheduleDayId { get; set; }
-    public ScheduleDay ScheduleDay { get; set; } = null!;
+    public BaseWeakenSchedule BaseWeakenSchedule { get; set; } = null!;
 }

@@ -228,7 +228,7 @@
         <mxCell id="O5-Aam5vRArmxlNxaEpb-142" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Work schedule&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="855" y="310.00000000000006" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="O5-Aam5vRArmxlNxaEpb-147" value="Work schedule Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+        <mxCell id="O5-Aam5vRArmxlNxaEpb-147" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee role Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
           <mxGeometry x="910" y="260.00000000000006" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-154" value="Pay frequency" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
@@ -951,7 +951,7 @@
         <mxCell id="uetQmwVORCMHqKW5TT_V-131" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-130" target="uetQmwVORCMHqKW5TT_V-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uetQmwVORCMHqKW5TT_V-130" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee role Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="uetQmwVORCMHqKW5TT_V-130" value="&lt;span style=&quot;&quot;&gt;Employee-&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Employee role Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="520" y="260" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
