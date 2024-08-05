@@ -36,4 +36,7 @@ public class Employee
     
     // One to one WorkSchedule
     public WorkSchedule? WorkSchedule { get; set; }
+    
+    // One to one OnLeave
+    public OnLeave? OnLeave { get; set; }
 }
