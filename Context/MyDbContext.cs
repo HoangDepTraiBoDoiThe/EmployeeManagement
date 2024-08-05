@@ -43,6 +43,6 @@ public class MyDbContext : DbContext
 
         modelBuilder.Entity<EmployeeWage>()
             .HasMany(emp => emp.MonthlyBonuses)
-            .WithMany(mon => mon.EmployeeWages);
+            .WithMany(b => (IEnumerable<EmployeeWage>)b.EmployeeWages);
     }
 }

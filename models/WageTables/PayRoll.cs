@@ -1,17 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using EmployeeManagement.models.EmployeeTables;
 
 namespace EmployeeManagement.models.WageTables;
 
 public class PayRoll
 {
-    [Key] 
+    [Key]
     public int Id;
     
     [Required] 
     public DateTime PayDate { get; set; }
-    [Required] 
+    [Required]
     [Column(TypeName = "decimal(18, 2)")]
     public decimal TotalEarnings { get; set; }
     

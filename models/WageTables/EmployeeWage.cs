@@ -22,4 +22,7 @@ public class EmployeeWage
     
     // One-to-many PayRoll
     public List<PayRoll> PayRolls { get; } = null!;
+    
+    // Many-to-many MonthlyBonuses
+    public List<MonthlyBonus> MonthlyBonuses { get; } = [];
 }

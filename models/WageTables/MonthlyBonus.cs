@@ -15,5 +15,5 @@ public class MonthlyBonus
     public string? BonusReason {get; set;}
 
     // Many-to-many EmployeeWage
-    public List<EmployeeWage> EmployeeWages { get; } = null!;
+    public List<EmployeeWage> EmployeeWages { get; } = [];
 }

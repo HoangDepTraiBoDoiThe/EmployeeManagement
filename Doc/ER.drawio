@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.6">
   <diagram name="Trang-1" id="Bt6A5V-XEVuFtGxONGSO">
-    <mxGraphModel dx="1042" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1226" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,23 +311,23 @@
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-287" value="1,n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="O5-Aam5vRArmxlNxaEpb-277" vertex="1" connectable="0">
           <mxGeometry x="0.2935" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="13" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1yOXm2m84MejSoIjWwgt-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-259" target="1yOXm2m84MejSoIjWwgt-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-259" value="Weeken Schedule" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1175" y="310.00000000000006" width="100" height="50" as="geometry" />
+          <mxGeometry x="1160" y="310.00000000000006" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-264" value="Weekday" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1241" y="362.50000000000006" width="90" height="50" as="geometry" />
+          <mxGeometry x="1230" y="362.50000000000006" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-271" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-270" target="O5-Aam5vRArmxlNxaEpb-259" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-270" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Weeken Schedule&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Id&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="1180" y="250.00000000000006" width="90" height="50" as="geometry" />
+          <mxGeometry x="1165" y="250.00000000000006" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-273" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-259" target="O5-Aam5vRArmxlNxaEpb-272" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -353,13 +353,13 @@
           <mxGeometry x="1451" y="310.00000000000006" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-278" value="Shift schedule&amp;nbsp;&amp;nbsp;Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="1420" y="370.00000000000006" width="90" height="50" as="geometry" />
+          <mxGeometry x="1390" y="370.00000000000006" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-281" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-280" target="O5-Aam5vRArmxlNxaEpb-276" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-280" value="Start time" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1515" y="250.00000000000006" width="90" height="50" as="geometry" />
+          <mxGeometry x="1480" y="250.00000000000006" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-283" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-259" target="O5-Aam5vRArmxlNxaEpb-282" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -369,7 +369,7 @@
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-284" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="O5-Aam5vRArmxlNxaEpb-283" vertex="1" connectable="0">
           <mxGeometry x="-0.32" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-10" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-282" value="Work" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
@@ -379,7 +379,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-285" value="End time" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1525" y="370" width="90" height="50" as="geometry" />
+          <mxGeometry x="1500" y="373.51" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-296" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-288" target="O5-Aam5vRArmxlNxaEpb-295" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -401,7 +401,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-288" value="Shift history" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="669.08" width="100" height="50" as="geometry" />
+          <mxGeometry x="1160" y="672.1700000000001" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-295" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Shift history&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
           <mxGeometry x="1084.25" y="572.1700000000001" width="90" height="50" as="geometry" />
@@ -427,16 +427,16 @@
           <mxGeometry x="1435.25" y="664.6700000000001" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-342" value="&lt;span style=&quot;&quot;&gt;Work Overtime Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="1425" y="722.1700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="1350" y="709.6700000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-343" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-344" target="O5-Aam5vRArmxlNxaEpb-341" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-344" value="Start time" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1515" y="609.6700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="1451" y="609.67" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-345" value="End time" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1525" y="714.6700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="1440.25" y="722.5000000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-348" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-288" target="O5-Aam5vRArmxlNxaEpb-347" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -513,7 +513,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-382" value="Bonus value" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1259.62" y="430" width="90" height="50" as="geometry" />
+          <mxGeometry x="1165" y="420" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-384" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Monthly bonus-Employee wage&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="307.1499999999999" y="669.6700000000001" width="100" height="50" as="geometry" />
@@ -525,7 +525,7 @@
           <mxGeometry x="312.1499999999999" y="614.6700000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-392" value="Bonus reason" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1270" y="493.10000000000014" width="90" height="50" as="geometry" />
+          <mxGeometry x="1260" y="510.0000000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O5-Aam5vRArmxlNxaEpb-395" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="O5-Aam5vRArmxlNxaEpb-85" target="O5-Aam5vRArmxlNxaEpb-394" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -618,7 +618,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1yOXm2m84MejSoIjWwgt-21" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Shift history&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" parent="1" vertex="1">
-          <mxGeometry x="1420" y="604.6700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="1361" y="619.08" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xSsR4cx_0JswZfBIH0DQ-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="xSsR4cx_0JswZfBIH0DQ-1" target="O5-Aam5vRArmxlNxaEpb-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -641,19 +641,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5P663EwDF2cx9lBnHZDV-19" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Monthly bonus&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="34.74999999999994" y="672.1700000000001" width="100" height="50" as="geometry" />
+          <mxGeometry x="9.999999999999943" y="672.5000000000001" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5P663EwDF2cx9lBnHZDV-20" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="5P663EwDF2cx9lBnHZDV-21" target="5P663EwDF2cx9lBnHZDV-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5P663EwDF2cx9lBnHZDV-21" value="Monthly Id" style="ellipse;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="134.74999999999994" y="709.6700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="109.99999999999994" y="710.0000000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5P663EwDF2cx9lBnHZDV-22" value="Bonus value" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="39.74999999999994" y="614.6700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="14.999999999999943" y="615.0000000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5P663EwDF2cx9lBnHZDV-23" value="Bonus reason" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="39.74999999999994" y="729.6700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="14.999999999999943" y="730.0000000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5P663EwDF2cx9lBnHZDV-30" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="5P663EwDF2cx9lBnHZDV-19" target="5P663EwDF2cx9lBnHZDV-29" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -916,7 +916,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-112" value="Weekday" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="944.25" y="722.1700000000001" width="90" height="50" as="geometry" />
+          <mxGeometry x="860" y="729.6700000000001" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uetQmwVORCMHqKW5TT_V-115" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="uetQmwVORCMHqKW5TT_V-114" target="O5-Aam5vRArmxlNxaEpb-288">
           <mxGeometry relative="1" as="geometry" />

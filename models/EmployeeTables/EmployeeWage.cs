@@ -8,7 +8,7 @@ namespace EmployeeManagement.models.EmployeeTables;
 public class EmployeeWage
 {
     [Key]
-    public int WageId { get; set; }
+    public int Id { get; set; }
     
     [Required]
     [Column(TypeName = "decimal(18, 2)")]
