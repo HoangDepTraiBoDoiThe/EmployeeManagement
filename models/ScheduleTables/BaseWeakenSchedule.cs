@@ -10,7 +10,7 @@ public class BaseWeakenSchedule
     public int Id { get; set; }
     
     [Required]
-    public Weeken WeekenDay { get; set; }
+    public Weeken Weeken { get; set; }
     
     // Many-to-one BaseWorkSchedule
     public int WorkScheduleId { get; set; }
@@ -18,5 +18,5 @@ public class BaseWeakenSchedule
     public BaseWorkSchedule BaseWorkSchedule { get; set; } = null!;
     
     // One-to-many BaseShiftSchedule
-    public List<BaseShiftSchedule> WorkingTimeSchedules { get; } = null!;
+    public List<BaseShiftSchedule> BaseShiftSchedule { get; } = null!;
 }

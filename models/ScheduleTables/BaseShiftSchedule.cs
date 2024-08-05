@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EmployeeManagement.models.ScheduleTables;
 
@@ -10,10 +11,8 @@ public class BaseShiftSchedule
     public DateTime EndTime { get; set; }
     public string? Description { get; set; }
     
-    // One to many ShiftHistory
-    public List<ShiftHistory> ShiftHistories { get; } = null!;
-    
     // Many-to-one BaseWeakenSchedule
     public int ScheduleDayId { get; set; }
+    [ForeignKey(nameof(ScheduleDayId))]
     public BaseWeakenSchedule BaseWeakenSchedule { get; set; } = null!;
 }
