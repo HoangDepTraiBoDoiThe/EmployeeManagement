@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagement.models;
+﻿namespace EmployeeManagement.models.ScheduleTables.WorkHistory;
 
 public class WorkOverTime
 {
