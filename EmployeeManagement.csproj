@@ -1,32 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-      <UserSecretsId>de6277b8-68f2-4bfe-9b2d-2fd4187031f7</UserSecretsId>
-  </PropertyGroup>
-
-    <ItemGroup>
-        <PackageReference Include="AutoMapper" Version="13.0.1" />
-        <PackageReference Include="DatabaseWrapper.SqlServer" Version="6.0.7" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
-          <PrivateAssets>all</PrivateAssets>
-          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-        </PackageReference>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.7" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
-          <PrivateAssets>all</PrivateAssets>
-          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-        </PackageReference>
-        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Data\Migrations\" />
-    </ItemGroup>
+    </PropertyGroup>
 
 </Project>
