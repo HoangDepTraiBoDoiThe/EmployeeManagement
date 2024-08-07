@@ -9,18 +9,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Finish refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" afterDir="false" />
+    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Int employee controller">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeManagement.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/MyDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/MyDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/0d1256be4658567c8a24b4c027bdbb3dbd6de656/src/EFCore.SqlServer/Extensions/SqlServerServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/ScheduleTables/BaseShiftSchedule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/ScheduleTables/BaseWeakenSchedule.cs" root0="SKIP_HIGHLIGHTING" />
@@ -28,8 +36,10 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.http.executor": "Debug",
     "git-widget-placeholder": "master",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.http">
@@ -93,13 +103,22 @@
       <option name="project" value="LOCAL" />
       <updated>1723017296392</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Int employee controller">
+      <option name="closed" value="true" />
+      <created>1723017858198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723017858198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish refactoring" />
+    <MESSAGE value="Int employee controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Int employee controller" />
   </component>
 </project>

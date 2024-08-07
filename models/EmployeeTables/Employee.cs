@@ -10,7 +10,7 @@ public class Employee
     public int Id { get; set; }
 
     [DataType(DataType.PhoneNumber)]
-    [StringLength(11, MinimumLength = 11)]
+    [StringLength(10, MinimumLength = 10, ErrorMessage = "Phone number must be 10 digits")]
     public string? PhoneNumber { get; set; }
 
     [Required]
@@ -20,12 +20,12 @@ public class Employee
 
     [Required] 
     [DataType(DataType.Date)] 
-    public DateTime StartDate { get; set; }
+    public DateOnly StartDate { get; set; }
     [DataType(DataType.Date)] 
-    public DateTime? QuitDate { get; set; }
+    public DateOnly? QuitDate { get; set; }
 
     public byte[] ProfilePicture { get; set; } = [];
-    
+
     // One to one User 
     public int UserId { get; set; }
     [ForeignKey(nameof(UserId))]
