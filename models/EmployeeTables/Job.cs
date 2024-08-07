@@ -3,7 +3,7 @@ using EmployeeManagement.models.JointTables;
 
 namespace EmployeeManagement.models.EmployeeTables;
 
-public class EmployeeRole
+public class Job
 {
     [Key]
     public int Id { get; set; }
@@ -13,6 +13,6 @@ public class EmployeeRole
     public string RoleName { get; set; } = null!;
     public string? RoleDescription { get; set; }
 
-    // One-to-many EmployeeEmployeeRole
-    public List<EmployeeEmployeeRole> EmployeeEmployeeRoles { get; } = [];
+    // Many-to-many Employees
+    public List<Employee> Employees { get; } = [];
 }

@@ -12,8 +12,8 @@ public class BaseWorkSchedule
     // One to many BaseWeakenSchedule
     public List<BaseWeakenSchedule> ScheduleDays { get; } = null!;
     
-    // One-to-one EmployeeEmployeeRole
+    // One-to-one EmployeeJob
     public int EmployeeEmployeeRoleId { get; set; }
     [ForeignKey(nameof(EmployeeEmployeeRoleId))]
-    public EmployeeEmployeeRole EmployeeEmployeeRole { get; set; } = null!;
+    public EmployeeJob EmployeeJob { get; set; } = null!;
 }

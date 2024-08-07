@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using EmployeeManagement.models.EmployeeTables;
 
-namespace EmployeeManagement.models.WageTables;
+namespace EmployeeManagement.models.ScheduleTables;
 
 public class OnLeave
 {

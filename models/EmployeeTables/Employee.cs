@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using EmployeeManagement.models.ApplicationUserTables;
-using EmployeeManagement.models.JointTables;
 
 namespace EmployeeManagement.models.EmployeeTables;
 
@@ -32,6 +31,6 @@ public class Employee
     [ForeignKey(nameof(UserId))]
     public User User { get; set; } = null!;
 
-    // One-to-many EmployeeEmployeeRole
-    public List<EmployeeEmployeeRole> EmployeeEmployeeRoles { get; } = [];
+    // Joint table - Many-to-many EmployeeJobs
+    public List<Job> Jobs { get; } = [];
 }

@@ -4,7 +4,7 @@ using EmployeeManagement.models.EmployeeTables;
 
 namespace EmployeeManagement.models.JointTables;
 
-public class EmployeeEmployeeRole
+public class EmployeeJob
 {
     [Key]
     public int Id { get; set; }
@@ -14,8 +14,8 @@ public class EmployeeEmployeeRole
     [ForeignKey(nameof(EmployeeId))]
     public Employee Employee { get; set; } = null!;
     
-    // Many-to-one EmployeeRole
+    // Many-to-one Job
     public int EmployeeRoleId { get; set; }
     [ForeignKey(nameof(EmployeeRoleId))]
-    public EmployeeRole EmployeeRole { get; set; } = null!;
+    public Job Job { get; set; } = null!;
 }

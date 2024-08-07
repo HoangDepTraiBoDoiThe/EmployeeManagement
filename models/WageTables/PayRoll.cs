@@ -6,7 +6,7 @@ namespace EmployeeManagement.models.WageTables;
 public class PayRoll
 {
     [Key]
-    public int Id;
+    public int Id { get; set; }
     
     [Required] 
     public DateTime PayDate { get; set; }

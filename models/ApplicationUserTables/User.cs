@@ -23,7 +23,6 @@ public class User
     // Role
     public List<Role> Roles { get; } = [];
 
-
     public User()
     {
     }
