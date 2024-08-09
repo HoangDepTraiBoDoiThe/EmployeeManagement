@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using EmployeeManagement.models.EmployeeTables;
 
 namespace EmployeeManagement.models.ApplicationUserTables;
@@ -20,7 +21,7 @@ public class User
     // Employee - one to one
     public Employee? UserEmployee { get; set; }
     
-    // Role
+    // Many to many roles
     public List<Role> Roles { get; } = [];
 
     public User()
@@ -38,5 +39,11 @@ public class User
         UserName = userName;
         Password = password;
         UserEmployee = userEmployee;
+    }
+
+    public User(string userName, string password)
+    {
+        UserName = userName;
+        Password = password;
     }
 }

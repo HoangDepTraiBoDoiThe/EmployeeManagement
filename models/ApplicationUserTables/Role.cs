@@ -12,7 +12,7 @@ public class Role
     [StringLength(30)]
     public string RoleName { get; set; } = null!;
 
-    // User
+    // Many-to-many Users
     public List<User> Users { get; } = [];
 
     public Role()
