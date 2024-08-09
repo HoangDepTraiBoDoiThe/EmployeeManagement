@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Add syncfusion">
+    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Implementing Jwt auth">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Context/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Context/MyDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +36,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cd09a527672c4f27bd06cb028e98e96245c20/8d/0a939215/SecurityTokenDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2cf1fedd4f34885a987ebea5537800d13918/d2/68a859a6/PolicyServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dde1bae3894eb86cd1bc896e18c43d8475d7d16bb049289b7f4e252c59e7d/IJwtAlgorithm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/controllers/Employee/EmployeeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/controllers/Employee/EmployeeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/ApplicationUserTables/Role.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -156,9 +158,25 @@
       <option name="presentableId" value="Default" />
       <updated>1723170597330</updated>
       <workItem from="1723170599557" duration="413000" />
-      <workItem from="1723171523345" duration="9858000" />
+      <workItem from="1723171523345" duration="12960000" />
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementing Jwt auth">
+      <option name="closed" value="true" />
+      <created>1723189243644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723189243644</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implementing Jwt auth">
+      <option name="closed" value="true" />
+      <created>1723189253747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723189253747</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +188,7 @@
     <MESSAGE value="Finish refactoring" />
     <MESSAGE value="Int employee controller" />
     <MESSAGE value="Add syncfusion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add syncfusion" />
+    <MESSAGE value="Implementing Jwt auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Jwt auth" />
   </component>
 </project>

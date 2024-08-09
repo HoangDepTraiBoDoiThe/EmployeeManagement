@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.models;
+﻿using EmployeeManagement.Constants;
+using EmployeeManagement.models;
 using EmployeeManagement.models.ApplicationUserTables;
 using EmployeeManagement.models.EmployeeTables;
 using EmployeeManagement.models.JointTables;
@@ -6,6 +7,7 @@ using EmployeeManagement.models.ScheduleTables;
 using EmployeeManagement.models.ScheduleTables.WorkHistory;
 using EmployeeManagement.models.WageTables;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using EmployeeWage = EmployeeManagement.models.WageTables.EmployeeWage;
 
 namespace EmployeeManagement.Context;
@@ -66,4 +68,13 @@ public class MyDbContext : DbContext
 
         modelBuilder.Entity<Employee>().HasMany(emp => emp.Jobs).WithMany(job => job.Employees).UsingEntity<EmployeeJob>();
     }
+    
+    public async Task<T> AddToDatabase<T >(T entityDataToAdd)
+    {
+        if (entityDataToAdd == null) throw new ArgumentNullException(nameof(entityDataToAdd));
+        var createdEntity = Add(entityDataToAdd);
+        await SaveChangesAsync();
+        return (T)createdEntity.Entity;
+    }
+
 }
