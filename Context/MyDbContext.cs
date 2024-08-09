@@ -20,7 +20,7 @@ public class MyDbContext : DbContext
     {
     }
 
-    public DbSet<User> Users { get; set; }
+    public DbSet<User?> Users { get; set; }
     public DbSet<Role> Roles { get; set; }
    
     public DbSet<Employee> Employees { get; set; }
