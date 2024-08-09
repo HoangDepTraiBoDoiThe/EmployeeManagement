@@ -59,6 +59,7 @@ namespace EmployeeManagement.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UserName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    AccountName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Password = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
@@ -72,10 +73,10 @@ namespace EmployeeManagement.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PhoneNumber = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: true),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: true),
                     EmployeeName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    StartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    QuitDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    StartDate = table.Column<DateOnly>(type: "date", nullable: false),
+                    QuitDate = table.Column<DateOnly>(type: "date", nullable: true),
                     ProfilePicture = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false)
                 },

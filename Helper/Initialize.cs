@@ -8,19 +8,19 @@ namespace EmployeeManagement.Helper;
 
 public class Initialize()
 {
-    public static async void InitializeData(WebApplicationBuilder builder, MyDbContext dbContext)
+    public static void InitializeData(WebApplicationBuilder builder, MyDbContext dbContext)
     {
-        if (await dbContext.Roles.AnyAsync())
-            return;
+        if (!dbContext.Roles.Any())
+        {
+            var roles = Enum.GetValues(typeof(ApplicationRole))
+                .Cast<ApplicationRole>()
+                .Select(role => new Role(role.ToString()));
 
-        var roles = Enum.GetValues(typeof(ApplicationRole))
-            .Cast<ApplicationRole>()
-            .Select(role => new Role(role.ToString()));
+            dbContext.Roles.AddRange(roles);
+            dbContext.SaveChanges();
+        }
 
-        await dbContext.Roles.AddRangeAsync(roles);
-        await dbContext.SaveChangesAsync();
-
-        bool isAdminExit = await dbContext.Users.Include(user => user.Roles).FirstOrDefaultAsync(user =>
+        bool isAdminExit = dbContext.Users.Include(user => user.Roles).FirstOrDefault(user =>
             user.Roles.Any(role => role.RoleName.Equals(ApplicationRole.ADMIN.ToString()))) is not null;
         if (!isAdminExit)
         {
@@ -28,8 +28,8 @@ public class Initialize()
             var adminPassword = builder.Configuration.GetSection("InitializeData:DefaultAdminPassword").Value;
             if (string.IsNullOrEmpty(adminName) || string.IsNullOrEmpty(adminPassword)) return;
             
-            User newAdmin = new User(adminName, "ADMIN", adminPassword);
-            Role? adminRole = await dbContext.Roles.FirstOrDefaultAsync(role => role.RoleName.Equals(ApplicationRole.ADMIN));
+            User newAdmin = new User(adminName, "ADMIN", BCrypt.Net.BCrypt.HashPassword(adminPassword));
+            Role? adminRole = dbContext.Roles.FirstOrDefault(role => role.RoleName.Equals(ApplicationRole.ADMIN));
             if (adminRole is null)
             {
                 EntityEntry<Role> newRole = dbContext.Roles.Add(new Role(ApplicationRole.ADMIN.ToString()));
@@ -38,7 +38,7 @@ public class Initialize()
             }
             newAdmin.Roles.Add(adminRole);
             dbContext.Users.Add(newAdmin);
-            await dbContext.SaveChangesAsync();
+            dbContext.SaveChanges();
         }
     }
 }

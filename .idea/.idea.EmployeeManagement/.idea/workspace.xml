@@ -9,10 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Implementing Jwt auth">
+    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="...">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Context/MyDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper/Initialize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Initialize.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240807075255_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240807075255_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240807081212_Change some employee column datatypes.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240807081212_Change some employee column datatypes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/MyDbContextModelSnapshot.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/0d1256be4658567c8a24b4c027bdbb3dbd6de656/src/EFCore.SqlServer/Extensions/SqlServerServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2aade6beb02ea367fd97c4070a4198802fe61c03/src/libraries/System.Private.CoreLib/src/System/Runtime/ExceptionServices/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4f790d6448334ed09ad0a9a30db2c2ca188a0/76/f382c9f8/ClaimTypes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4f790d6448334ed09ad0a9a30db2c2ca188a0/e3/6e120b2a/ClaimsIdentity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/649f9a5315084d038b64e29ea11b1fb5b920/01/96ae4b9c/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
@@ -36,9 +43,14 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cd09a527672c4f27bd06cb028e98e96245c20/8d/0a939215/SecurityTokenDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2cf1fedd4f34885a987ebea5537800d13918/d2/68a859a6/PolicyServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dde1bae3894eb86cd1bc896e18c43d8475d7d16bb049289b7f4e252c59e7d/IJwtAlgorithm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Context/MyDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/controllers/Employee/EmployeeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/controllers/Employee/EmployeeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/ApplicationUserTables/AuthService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/ApplicationUserTables/Role.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/ApplicationUserTables/Role.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/ApplicationUserTables/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/ApplicationUserTables/User.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -53,26 +65,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.http.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\mydra\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\mydra\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\mydra\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\mydra\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\mydra\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\mydra\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.http">
     <configuration name="IIS" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EmployeeManagement.csproj" />
@@ -158,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723170597330</updated>
       <workItem from="1723170599557" duration="413000" />
-      <workItem from="1723171523345" duration="12960000" />
+      <workItem from="1723171523345" duration="14516000" />
     </task>
     <task id="LOCAL-00004" summary="Implementing Jwt auth">
       <option name="closed" value="true" />
@@ -176,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723189253747</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implementing initial initializer">
+      <option name="closed" value="true" />
+      <created>1723192556382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723192556382</updated>
+    </task>
+    <task id="LOCAL-00007" summary="...">
+      <option name="closed" value="true" />
+      <created>1723192586624</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723192586624</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +217,27 @@
     <MESSAGE value="Int employee controller" />
     <MESSAGE value="Add syncfusion" />
     <MESSAGE value="Implementing Jwt auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Jwt auth" />
+    <MESSAGE value="Implementing initial initializer" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Helper/Initialize.cs</url>
+          <line>32</line>
+          <properties documentPath="F:\WebApp projects\MVC\EmployeeManagement\Helper\Initialize.cs" containingFunctionPresentation="Method 'InitializeData'">
+            <startOffsets>
+              <option value="1459" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1481" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeManagement.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240807075255_Initial")]
+    [Migration("20240809084119_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -51,6 +51,10 @@ namespace EmployeeManagement.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("AccountName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -80,18 +84,18 @@ namespace EmployeeManagement.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("PhoneNumber")
-                        .HasMaxLength(11)
-                        .HasColumnType("nvarchar(11)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<byte[]>("ProfilePicture")
                         .IsRequired()
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<DateTime?>("QuitDate")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly?>("QuitDate")
+                        .HasColumnType("date");
 
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("StartDate")
+                        .HasColumnType("date");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
