@@ -34,7 +34,7 @@ public class AuthService(MyDbContext dbContext, IOptions<JwtSection> jwtSection)
         User newUser = new User(request.UserName, BCrypt.Net.BCrypt.HashPassword(request.UserPassword));
         Role? initRole = await dbContext.Roles.FirstOrDefaultAsync(role => role.RoleName.Equals(ApplicationRole.GUESS));
         if (initRole is not null) newUser.Roles.Add(initRole);
-        dbContext.Users.Add(newUser);
+        await dbContext.AddToDatabase(newUser);
         
         return new RegisterResponse("User created successfully");
     }

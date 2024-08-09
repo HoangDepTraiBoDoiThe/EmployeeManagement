@@ -12,6 +12,8 @@ public class User
     [StringLength(100, MinimumLength = 2)]
     [Required(ErrorMessage = "User name is required.")]
     public string UserName { get; set; } = null!;
+    [Required(ErrorMessage = "Account name is required.")]
+    public string AccountName { get; set; } = null!;
     
     [DataType(DataType.Password)]
     [StringLength(100, MinimumLength = 12, ErrorMessage = "Password has to be at least 12 characters")]
@@ -27,11 +29,11 @@ public class User
     public User()
     {
     }
-    public User(string userName, string password, Employee? userEmployee)
+    public User(string userName, string accountName, string password)
     {
         UserName = userName;
+        AccountName = accountName;
         Password = password;
-        UserEmployee = userEmployee;
     }
     public User(int id, string userName, string password, Employee? userEmployee)
     {

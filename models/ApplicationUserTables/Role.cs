@@ -19,9 +19,8 @@ public class Role
     {
     }
 
-    public Role(int id, string roleName)
+    public Role(string roleName)
     {
-        Id = id;
         RoleName = roleName;
     }
 }
