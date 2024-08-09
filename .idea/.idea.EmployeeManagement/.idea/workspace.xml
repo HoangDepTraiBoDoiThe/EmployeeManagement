@@ -9,16 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="...">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" afterDir="false" />
+    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Refine - worked">
+      <change afterPath="$PROJECT_DIR$/Service/Auth/AuthService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeManagement.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper/Initialize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Initialize.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240807075255_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240807075255_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240807081212_Change some employee column datatypes.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240807081212_Change some employee column datatypes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/MyDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ApplicationUserTables/AuthService.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723170597330</updated>
       <workItem from="1723170599557" duration="413000" />
-      <workItem from="1723171523345" duration="14516000" />
+      <workItem from="1723171523345" duration="17370000" />
     </task>
     <task id="LOCAL-00004" summary="Implementing Jwt auth">
       <option name="closed" value="true" />
@@ -204,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723192586624</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refine - worked">
+      <option name="closed" value="true" />
+      <created>1723194214832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723194214832</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,25 +222,7 @@
     <MESSAGE value="Implementing Jwt auth" />
     <MESSAGE value="Implementing initial initializer" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Helper/Initialize.cs</url>
-          <line>32</line>
-          <properties documentPath="F:\WebApp projects\MVC\EmployeeManagement\Helper\Initialize.cs" containingFunctionPresentation="Method 'InitializeData'">
-            <startOffsets>
-              <option value="1459" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1481" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refine - worked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refine - worked" />
   </component>
 </project>
