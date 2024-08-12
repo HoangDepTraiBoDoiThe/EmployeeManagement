@@ -48,8 +48,8 @@ namespace EmployeeManagement.Helper
                 return;
             }
 
-            var adminName = configuration["SeedData:DefaultAdminName"];
-            var adminPassword = configuration["SeedData:DefaultAdminPassword"];
+            var adminName = configuration["InitializeData:DefaultAdminName"];
+            var adminPassword = configuration["InitializeData:DefaultAdminPassword"];
 
             if (string.IsNullOrEmpty(adminName) || string.IsNullOrEmpty(adminPassword))
             {
@@ -73,7 +73,7 @@ namespace EmployeeManagement.Helper
         public static async Task SeedDataAsync(this IServiceProvider serviceProvider)
         {
             using var scope = serviceProvider.CreateScope();
-            var initializer = scope.ServiceProvider.GetRequiredService<Initializer>();
+            Initializer initializer = scope.ServiceProvider.GetRequiredService<Initializer>();
             await initializer.SeedDataAsync();
         }
     }
