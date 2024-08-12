@@ -9,9 +9,6 @@
 
     <ItemGroup>
       <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
-      <PackageReference Include="JWT" Version="10.1.1" />
-      <PackageReference Include="JWT.Extensions.AspNetCore" Version="10.1.1" />
-      <PackageReference Include="JWT.Extensions.DependencyInjection" Version="2.2.3" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.7" />
