@@ -1,4 +1,4 @@
-﻿using EmployeeManagement.Constants;
+using EmployeeManagement.Constants;
 using EmployeeManagement.models;
 using EmployeeManagement.models.ApplicationUserTables;
 using EmployeeManagement.models.EmployeeTables;
@@ -7,7 +7,6 @@ using EmployeeManagement.models.ScheduleTables;
 using EmployeeManagement.models.ScheduleTables.WorkHistory;
 using EmployeeManagement.models.WageTables;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using EmployeeWage = EmployeeManagement.models.WageTables.EmployeeWage;
 
 namespace EmployeeManagement.Context;
@@ -22,7 +21,7 @@ public class MyDbContext : DbContext
     {
     }
 
-    public DbSet<User?> Users { get; set; }
+    public DbSet<User> Users { get; set; }
     public DbSet<Role> Roles { get; set; }
    
     public DbSet<Employee> Employees { get; set; }
@@ -76,5 +75,4 @@ public class MyDbContext : DbContext
         await SaveChangesAsync();
         return (T)createdEntity.Entity;
     }
-
 }

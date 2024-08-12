@@ -13,6 +13,8 @@
       <PackageReference Include="JWT.Extensions.AspNetCore" Version="10.1.1" />
       <PackageReference Include="JWT.Extensions.DependencyInjection" Version="2.2.3" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.7" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.7" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
@@ -29,6 +31,12 @@
     <ItemGroup>
       <Folder Include="Controllers\Auth\" />
       <Folder Include="Migrations\" />
+      <Folder Include="Views\Auth\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Views\Auth\Edit.cshtml" />
+      <Content Remove="Views\Auth\Create.cshtml" />
     </ItemGroup>
 
 </Project>
