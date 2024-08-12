@@ -12,15 +12,9 @@
     <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Setup .NET Identity">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/AuthUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/AuthUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Context/MyIdentityDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Context/MyIdentityDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Context/MyIdentityDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helper/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Initializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240809084119_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240809084119_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/MyDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/JointTables/EmployeeJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/JointTables/EmployeeJob.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/Auth/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/Auth/AuthService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +28,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/EntityFrameworkCore/src/IdentityDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/IdentityErrorDescriber.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/IdentityOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/IdentityResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/PasswordOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/PasswordValidator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/RoleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Stores/src/IdentityRole.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Stores/src/IdentityUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Security/Authorization/Policy/src/PolicyServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Shared/ThrowHelpers/ArgumentNullThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/0d1256be4658567c8a24b4c027bdbb3dbd6de656/src/EFCore.SqlServer/Extensions/SqlServerServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2aade6beb02ea367fd97c4070a4198802fe61c03/src/libraries/System.Private.CoreLib/src/System/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2aade6beb02ea367fd97c4070a4198802fe61c03/src/libraries/System.Private.CoreLib/src/System/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2aade6beb02ea367fd97c4070a4198802fe61c03/src/libraries/System.Private.CoreLib/src/System/Runtime/ExceptionServices/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.DependencyInjection/src/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/aa/d94d1cc3/02000018.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/aa/d94d1cc3/02000018High.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/aa/d94d1cc3/02000018Low.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4f790d6448334ed09ad0a9a30db2c2ca188a0/76/f382c9f8/ClaimTypes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4f790d6448334ed09ad0a9a30db2c2ca188a0/e3/6e120b2a/ClaimsIdentity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5e15ba24065646ab8edfdd48fa903c1426a830/b8/80e6f299/EntityEntry`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -54,9 +59,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b2b917c507d64d0980727dbdd83b6585c8f8a0/05/d0db2d50/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b2b917c507d64d0980727dbdd83b6585c8f8a0/c6/69484d08/Monitor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cd09a527672c4f27bd06cb028e98e96245c20/8d/0a939215/SecurityTokenDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/19/dcef98d4/IPasswordValidator`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/1d/f8df830d/PasswordValidator`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/1f/40b28417/PersonalDataAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/51/8ab7f977/IUserRoleStore`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/cd/d7428e0b/IRoleStore`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/da/125d460b/IdentityErrorDescriber.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/f9/15475ab2/IPasswordHasher`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2cf1fedd4f34885a987ebea5537800d13918/d2/68a859a6/PolicyServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dde1bae3894eb86cd1bc896e18c43d8475d7d16bb049289b7f4e252c59e7d/IJwtAlgorithm.cs" root0="SKIP_HIGHLIGHTING" />
@@ -66,6 +74,7 @@
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Helper/Initialize.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Helper/Initialize.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
@@ -273,5 +282,9 @@
     <MESSAGE value="Delete temps" />
     <MESSAGE value="Setup .NET Identity" />
     <option name="LAST_COMMIT_MESSAGE" value="Setup .NET Identity" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

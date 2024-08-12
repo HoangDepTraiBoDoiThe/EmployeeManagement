@@ -1,5 +1,3 @@
-using EmployeeManagement.Constants;
-using EmployeeManagement.models;
 using EmployeeManagement.models.ApplicationUserTables;
 using EmployeeManagement.models.EmployeeTables;
 using EmployeeManagement.models.JointTables;
@@ -11,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement.Context;
 
-public class MyIdentityDbContext : IdentityDbContext
+public class MyIdentityDbContext : IdentityDbContext<User>
 {
     public MyIdentityDbContext()
     {
