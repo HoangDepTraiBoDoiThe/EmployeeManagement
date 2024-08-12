@@ -23,9 +23,6 @@ public class User : IdentityUser
     
     // Employee - one to one
     public Employee? UserEmployee { get; set; }
-    
-    // Many to many roles
-    public List<Role> Roles { get; } = [];
 
     public User()
     {

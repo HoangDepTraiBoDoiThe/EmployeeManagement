@@ -6,7 +6,7 @@ namespace EmployeeManagement.models.ScheduleTables;
 public class OnLeave
 {
     [Key]
-    public int OnLeaveId { get; set; }
+    public string OnLeaveId { get; set; }
     
     [Required]
     public bool IsApproved { get; set; }
@@ -17,6 +17,6 @@ public class OnLeave
     public bool WillBePunish { get; set; }
     
     // Many-to-one Employee
-    public int EmployeeId { get; set; }
+    public string EmployeeId { get; set; }
     public Employee Employee { get; set; } = null!;
 }

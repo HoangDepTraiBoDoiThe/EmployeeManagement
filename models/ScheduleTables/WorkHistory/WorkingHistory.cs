@@ -6,7 +6,7 @@ namespace EmployeeManagement.models.ScheduleTables.WorkHistory;
 public class WorkingHistory
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
     
     [Required]
     public DateTime FromTime { get; set; }
@@ -14,7 +14,7 @@ public class WorkingHistory
     public DateOnly ToTime { get; set; }
     
     // Many-to-one BaseWorkSchedule
-    public int BaseWorkScheduleId { get; set; }
+    public string BaseWorkScheduleId { get; set; }
     [ForeignKey(nameof(BaseWorkScheduleId))]
     public BaseWorkSchedule WorkSchedule { get; set; } = null!;
     

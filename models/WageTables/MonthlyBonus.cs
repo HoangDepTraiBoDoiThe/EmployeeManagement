@@ -6,11 +6,12 @@ namespace EmployeeManagement.models.WageTables;
 public class MonthlyBonus
 {
     [Key]
-    public int MonthlyBonusId { get; set; }
+    public string MonthlyBonusId { get; set; }
     
     [Required]
     [Column(TypeName = "decimal(18, 2)")]
     public decimal BonusAmount { get; set; }
+    [MaxLength(100)]
     public string? BonusReason {get; set;}
 
     // Many-to-many EmployeeWage

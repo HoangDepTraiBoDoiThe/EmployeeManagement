@@ -7,13 +7,13 @@ namespace EmployeeManagement.models.ScheduleTables;
 public class BaseWeakenSchedule
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
     
     [Required]
     public DayOfWeek DayOfWeek { get; set; }
     
     // Many-to-one BaseWorkSchedule
-    public int WorkScheduleId { get; set; }
+    public string WorkScheduleId { get; set; }
     [ForeignKey(nameof(WorkScheduleId))]
     public BaseWorkSchedule BaseWorkSchedule { get; set; } = null!;
     

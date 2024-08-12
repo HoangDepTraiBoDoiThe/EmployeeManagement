@@ -6,7 +6,7 @@ namespace EmployeeManagement.models.ScheduleTables.WorkHistory;
 public class ShiftPenalty
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
     [Required]
     [Column(TypeName = "decimal(18, 2)")]
     public decimal Amount { get; set; }
@@ -15,6 +15,6 @@ public class ShiftPenalty
     public bool WillBeDeducted { get; set; } = true;
 
     // Many-to-one ShiftHistory
-    public int ShiftHistoryId { get; set; }
+    public string ShiftHistoryId { get; set; }
     public ShiftHistory ShiftHistory { get; set; } = null!;
 }

@@ -8,17 +8,16 @@ using EmployeeManagement.models.ScheduleTables.WorkHistory;
 using EmployeeManagement.models.WageTables;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using EmployeeWage = EmployeeManagement.models.WageTables.EmployeeWage;
 
 namespace EmployeeManagement.Context;
 
-public class MyDbContext : IdentityDbContext
+public class MyIdentityDbContext : IdentityDbContext
 {
-    public MyDbContext()
+    public MyIdentityDbContext()
     {
     }
 
-    public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
+    public MyIdentityDbContext(DbContextOptions<MyIdentityDbContext> options) : base(options)
     {
     }
 
@@ -44,16 +43,12 @@ public class MyDbContext : IdentityDbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
         OnModelCreatingPartial(modelBuilder);
     }
 
     void OnModelCreatingPartial(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Role>()
-            .HasMany(e => e.Users)
-            .WithMany(e => e.Roles)
-            .UsingEntity<UserRole>();
-        
         modelBuilder.Entity<Employee>()
             .HasOne(e => e.User)
             .WithOne(u => u.UserEmployee)

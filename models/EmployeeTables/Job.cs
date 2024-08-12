@@ -6,7 +6,7 @@ namespace EmployeeManagement.models.EmployeeTables;
 public class Job
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
 
     [Required] 
     [StringLength(50, ErrorMessage = "50 characters maximum")]

@@ -8,7 +8,7 @@ namespace EmployeeManagement.models.WageTables;
 public class EmployeeWage
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
  
     [Required]
     [Column(TypeName = "decimal(18, 2)")]
@@ -17,7 +17,7 @@ public class EmployeeWage
     public PayFrequency PayFrequency { get; set; }
     
     // One-to-one WorkingHistory
-    public int WorkingHistoryId { get; set; }
+    public string WorkingHistoryId { get; set; }
     [ForeignKey(nameof(WorkingHistoryId))]
     public WorkingHistory WorkingHistory { get; set; } = null!;
     

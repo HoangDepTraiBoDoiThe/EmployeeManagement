@@ -6,7 +6,7 @@ namespace EmployeeManagement.models.ScheduleTables.WorkHistory;
 public class OnLeaveHistory
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
     
     [DataType(DataType.Date)]
     public DateOnly FromDate { get; set; }
@@ -17,7 +17,7 @@ public class OnLeaveHistory
     public bool DoPunishment { get; set; } = true;
     
     // Many-to-one WorkingHistory
-    public int WorkingHistoryId { get; set; }
+    public string WorkingHistoryId { get; set; }
     [ForeignKey(nameof(WorkingHistoryId))]
     public WorkingHistory WorkingHistory { get; set; } = null!;
 }

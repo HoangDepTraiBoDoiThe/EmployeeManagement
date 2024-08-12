@@ -13,7 +13,7 @@ using EmployeeManagement.models.ApplicationUserTables;
 namespace EmployeeManagement.Helper
 {
     public class Initializer(
-        RoleManager<Role> roleManager,
+        RoleManager<IdentityRole> roleManager,
         UserManager<User> userManager,
         IConfiguration configuration)
     {
@@ -32,7 +32,7 @@ namespace EmployeeManagement.Helper
 
             var roles = Enum.GetValues(typeof(ApplicationRole))
                 .Cast<ApplicationRole>()
-                .Select(role => new Role(role.ToString()));
+                .Select(role => new IdentityRole(role.ToString()));
 
             foreach (var role in roles)
             {
@@ -42,10 +42,8 @@ namespace EmployeeManagement.Helper
 
         private async Task InitializeAdminAsync()
         {
-            var adminExists = await userManager.Users.AnyAsync(user => 
-                user.Roles.Any(role => role.RoleName == ApplicationRole.ADMIN.ToString()));
-
-            if (adminExists)
+            IList<User> adminExists = await userManager.GetUsersInRoleAsync(ApplicationRole.ADMIN.ToString());
+            if (adminExists.Any())
             {
                 return;
             }

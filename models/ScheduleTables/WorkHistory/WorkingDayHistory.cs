@@ -4,7 +4,7 @@ namespace EmployeeManagement.models.ScheduleTables.WorkHistory;
 
 public class WorkingDayHistory
 {
-    [Key] public int Id { get; set; }
+    [Key] public string Id { get; set; }
     
     [Required]
     public DayOfWeek DayOfWeek { get; set; }
@@ -14,6 +14,6 @@ public class WorkingDayHistory
     public DateOnly DateTime { get; set; }
     
     // Many-to-one WorkingHistory
-    public int WorkingHistoryId { get; set; }
+    public string WorkingHistoryId { get; set; }
     public WorkingHistory WorkingHistory { get; set; } = null!;
 }

@@ -7,7 +7,7 @@ namespace EmployeeManagement.models.EmployeeTables;
 public class Employee
 {
     [Key] 
-    public int Id { get; set; }
+    public string Id { get; set; }
 
     [DataType(DataType.PhoneNumber)]
     [StringLength(10, MinimumLength = 10, ErrorMessage = "Phone number must be 10 digits")]
@@ -27,7 +27,7 @@ public class Employee
     public byte[] ProfilePicture { get; set; } = [];
 
     // One to one User 
-    public int UserId { get; set; }
+    public string UserId { get; set; }
     [ForeignKey(nameof(UserId))]
     public User User { get; set; } = null!;
 

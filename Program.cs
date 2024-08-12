@@ -3,6 +3,7 @@ using EmployeeManagement.Context;
 using EmployeeManagement.Helper;
 using EmployeeManagement.models.ApplicationUserTables;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
@@ -13,11 +14,11 @@ builder.Services.AddControllersWithViews();
 
 // My codes
 var connectionString = builder.Configuration.GetConnectionString("Dev");
-builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<MyIdentityDbContext>(options => options.UseSqlServer(connectionString));
 builder.Services.AddDefaultIdentity<User>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
-}).AddRoles<Role>().AddEntityFrameworkStores<MyDbContext>();
+}).AddRoles<IdentityRole>().AddEntityFrameworkStores<MyIdentityDbContext>();
 Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(builder.Configuration.GetConnectionString("Syncfusion"));
 builder.Services.Configure<JwtSection>(builder.Configuration.GetSection("Security"));
 builder.Services.AddAuthentication(x =>

@@ -9,14 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Delete temps">
+    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Setup .NET Identity">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/dataSources/a19f25b8-93ec-43be-bdbf-176b14b231a6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Context/MyDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper/Initialize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Initializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/AuthUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/AuthUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Context/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Context/MyIdentityDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Initializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240809084119_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240809084119_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/MyDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/JointTables/EmployeeJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/JointTables/EmployeeJob.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ApplicationUserTables/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/models/ApplicationUserTables/Role.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ApplicationUserTables/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/models/ApplicationUserTables/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/Auth/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/Auth/AuthService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/EntityFrameworkCore/src/IdentityDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/IdentityResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/RoleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Identity/Extensions.Core/src/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -55,6 +60,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cf6fe6c7604f49fe97f8beeda15ff9d26d8b0/f9/15475ab2/IPasswordHasher`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2cf1fedd4f34885a987ebea5537800d13918/d2/68a859a6/PolicyServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dde1bae3894eb86cd1bc896e18c43d8475d7d16bb049289b7f4e252c59e7d/IJwtAlgorithm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Context/MyDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Context/MyDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Context/MyDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Helper/Initialize.cs" root0="SKIP_HIGHLIGHTING" />
@@ -181,7 +187,7 @@
       <updated>1723170597330</updated>
       <workItem from="1723170599557" duration="413000" />
       <workItem from="1723171523345" duration="17370000" />
-      <workItem from="1723427469796" duration="10301000" />
+      <workItem from="1723427469796" duration="13432000" />
     </task>
     <task id="LOCAL-00004" summary="Implementing Jwt auth">
       <option name="closed" value="true" />
@@ -239,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723439920587</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Setup .NET Identity">
+      <option name="closed" value="true" />
+      <created>1723443437914</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723443437914</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +271,7 @@
     <MESSAGE value="Refine - worked" />
     <MESSAGE value="small Refactor" />
     <MESSAGE value="Delete temps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete temps" />
+    <MESSAGE value="Setup .NET Identity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup .NET Identity" />
   </component>
 </project>

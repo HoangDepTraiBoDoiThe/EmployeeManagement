@@ -4,7 +4,7 @@ namespace EmployeeManagement.models.ScheduleTables.WorkHistory;
 
 public class ShiftHistory
 {
-    public int Id { get; set; }
+    public string Id { get; set; }
     
     public DateTime Checkin { get; set; }
     public DateTime Checkout { get; set; }
@@ -12,7 +12,7 @@ public class ShiftHistory
     public DateTime BaseEndTime { get; set; }
     
     // Many-to-one BaseShiftSchedule
-    public int ShiftScheduleId { get; set; }
+    public string ShiftScheduleId { get; set; }
     [ForeignKey(nameof(ShiftScheduleId))]
     public BaseShiftSchedule BaseShiftSchedule { get; set; } = null!;
     

@@ -7,15 +7,15 @@ namespace EmployeeManagement.models.JointTables;
 public class EmployeeJob
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
     
     // Many-to-one Employee
-    public int EmployeeId { get; set; }
+    public string EmployeeId { get; set; }
     [ForeignKey(nameof(EmployeeId))]
     public Employee Employee { get; set; } = null!;
     
     // Many-to-one Job
-    public int EmployeeRoleId { get; set; }
+    public string EmployeeRoleId { get; set; }
     [ForeignKey(nameof(EmployeeRoleId))]
     public Job Job { get; set; } = null!;
 }

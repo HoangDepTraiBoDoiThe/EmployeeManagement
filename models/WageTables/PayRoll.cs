@@ -6,7 +6,7 @@ namespace EmployeeManagement.models.WageTables;
 public class PayRoll
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
     
     [Required] 
     public DateTime PayDate { get; set; }
@@ -15,7 +15,7 @@ public class PayRoll
     public decimal TotalEarnings { get; set; }
     
     // Many-to-one EmployeeWage
-    public int EmployeeWageId { get; set; }
+    public string EmployeeWageId { get; set; }
     [ForeignKey(nameof(EmployeeWageId))] 
     public EmployeeWage EmployeeWage { get; set; } = null!;
 }
