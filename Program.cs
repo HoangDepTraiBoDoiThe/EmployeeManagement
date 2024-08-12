@@ -18,6 +18,16 @@ builder.Services.AddDbContext<MyIdentityDbContext>(options => options.UseSqlServ
 builder.Services.AddDefaultIdentity<User>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
+    PasswordOptions passwordOptions = new PasswordOptions()
+    {
+        RequiredLength = 12,
+        RequireNonAlphanumeric = false,
+        RequireDigit = false,
+        RequireLowercase = false,
+        RequireUppercase = false,
+        RequiredUniqueChars = 0
+    };
+    options.Password = passwordOptions;
 }).AddRoles<IdentityRole>().AddEntityFrameworkStores<MyIdentityDbContext>();
 Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(builder.Configuration.GetConnectionString("Syncfusion"));
 builder.Services.Configure<JwtSection>(builder.Configuration.GetSection("Security"));
