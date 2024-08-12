@@ -31,22 +31,16 @@ builder.Services.AddDefaultIdentity<User>(options =>
 }).AddRoles<IdentityRole>().AddEntityFrameworkStores<MyIdentityDbContext>();
 Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(builder.Configuration.GetConnectionString("Syncfusion"));
 builder.Services.Configure<JwtSection>(builder.Configuration.GetSection("Security"));
-builder.Services.AddAuthentication(x =>
-    {
-        x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-        x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    })
-    .AddJwtBearer(x =>
-    {
-        x.RequireHttpsMetadata = false;
-        x.SaveToken = true;
-        x.TokenValidationParameters = new TokenValidationParameters
-        {
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration.GetSection("Security")["Key"] ?? string.Empty)),
-            ValidateIssuer = false,
-            ValidateAudience = false
-        };
-    });
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    // Cookie settings
+    options.Cookie.HttpOnly = true;
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+
+    options.LoginPath = "/Identity/Account/Login";
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+    options.SlidingExpiration = true;
+});
 builder.Services.AddAuthorization();
 builder.Services.AddTransient<Initializer>();
 
