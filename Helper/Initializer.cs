@@ -49,14 +49,17 @@ namespace EmployeeManagement.Helper
             }
 
             var adminName = configuration["InitializeData:DefaultAdminName"];
+            var adminEmail = configuration["InitializeData:DefaultAdminEmail"];
             var adminPassword = configuration["InitializeData:DefaultAdminPassword"];
 
-            if (string.IsNullOrEmpty(adminName) || string.IsNullOrEmpty(adminPassword))
+            if (string.IsNullOrEmpty(adminName) || string.IsNullOrEmpty(adminPassword) || string.IsNullOrEmpty(adminEmail))
             {
                 throw new InvalidOperationException("Admin credentials are not properly configured.");
             }
 
             var newAdmin = new User(adminName);
+            newAdmin.Email = adminEmail;
+            
             var result = await userManager.CreateAsync(newAdmin, adminPassword);
 
             if (!result.Succeeded)
