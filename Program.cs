@@ -1,7 +1,7 @@
 using System.Text;
-using EmployeeManagement.Auth;
 using EmployeeManagement.Context;
 using EmployeeManagement.Helper;
+using EmployeeManagement.models.ApplicationUserTables;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -14,6 +14,10 @@ builder.Services.AddControllersWithViews();
 // My codes
 var connectionString = builder.Configuration.GetConnectionString("Dev");
 builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDefaultIdentity<User>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+}).AddRoles<Role>().AddEntityFrameworkStores<MyDbContext>();
 Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(builder.Configuration.GetConnectionString("Syncfusion"));
 builder.Services.Configure<JwtSection>(builder.Configuration.GetSection("Security"));
 builder.Services.AddAuthentication(x =>
@@ -33,8 +37,10 @@ builder.Services.AddAuthentication(x =>
         };
     });
 builder.Services.AddAuthorization();
+builder.Services.AddTransient<Initializer>();
 
 var app = builder.Build();
+
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -49,7 +55,7 @@ if (!app.Environment.IsDevelopment())
 using (var scope = app.Services.CreateScope())
 {
     var service = scope.ServiceProvider;
-    Initialize.InitializeData(builder, service.GetService<MyDbContext>()!);
+    await service.SeedDataAsync();
 }
 
 app.UseHttpsRedirection();

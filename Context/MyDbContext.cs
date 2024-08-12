@@ -6,12 +6,13 @@ using EmployeeManagement.models.JointTables;
 using EmployeeManagement.models.ScheduleTables;
 using EmployeeManagement.models.ScheduleTables.WorkHistory;
 using EmployeeManagement.models.WageTables;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using EmployeeWage = EmployeeManagement.models.WageTables.EmployeeWage;
 
 namespace EmployeeManagement.Context;
 
-public class MyDbContext : DbContext
+public class MyDbContext : IdentityDbContext
 {
     public MyDbContext()
     {
@@ -21,9 +22,6 @@ public class MyDbContext : DbContext
     {
     }
 
-    public DbSet<User> Users { get; set; }
-    public DbSet<Role> Roles { get; set; }
-   
     public DbSet<Employee> Employees { get; set; }
     public DbSet<Job> Jobs { get; set; }
     

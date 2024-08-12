@@ -1,12 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace EmployeeManagement.models.ApplicationUserTables;
 
-public class Role
+public class Role : IdentityRole
 {
-    [Key]
-    public int Id { get; set; }
-
     [Required]
     [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
     [StringLength(30)]
@@ -19,8 +17,7 @@ public class Role
     {
     }
 
-    public Role(string roleName)
+    public Role(string roleName) : base(roleName)
     {
-        RoleName = roleName;
     }
 }
