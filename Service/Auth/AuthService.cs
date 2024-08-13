@@ -2,7 +2,7 @@
 // using EmployeeManagement.Constants;
 // using EmployeeManagement.Context;
 // using EmployeeManagement.DTOs.Auth;
-// using EmployeeManagement.Helper;
+// using EmployeeManagement.StaticHelper;
 // using EmployeeManagement.Models.ApplicationUserTables.DTOs.Auth;
 // using Microsoft.EntityFrameworkCore;
 // using Microsoft.Extensions.Options;
