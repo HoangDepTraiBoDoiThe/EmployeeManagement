@@ -2,9 +2,8 @@
 
 public enum ApplicationRole
 {
-    ADMIN,
-    EMPLOYEE,
-    MANAGER,
-    GUESS,
-    NONE
+    Admin,
+    Employee,
+    Manager,
+    Guess
 }

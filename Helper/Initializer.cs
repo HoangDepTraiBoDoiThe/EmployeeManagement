@@ -42,7 +42,7 @@ namespace EmployeeManagement.Helper
 
         private async Task InitializeAdminAsync()
         {
-            IList<User> adminExists = await userManager.GetUsersInRoleAsync(ApplicationRole.ADMIN.ToString());
+            IList<User> adminExists = await userManager.GetUsersInRoleAsync(ApplicationRole.Admin.ToString());
             if (adminExists.Any())
             {
                 return;
@@ -67,7 +67,7 @@ namespace EmployeeManagement.Helper
                 throw new InvalidOperationException($"Failed to create admin user: {string.Join(", ", result.Errors.Select(e => e.Description))}");
             }
 
-            await userManager.AddToRoleAsync(newAdmin, ApplicationRole.ADMIN.ToString());
+            await userManager.AddToRoleAsync(newAdmin, ApplicationRole.Admin.ToString());
         }
     }
 
