@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Change username and password login to Email and password">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constants/ApplicationRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Constants/ApplicationRole.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Initializer.cs" afterDir="false" />
+    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="Change system roles name. Add employee roles enum">
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +70,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f18437be1eb24a14b8149d611be252c283908/fc/617dfbd4/SignInManager`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2cf1fedd4f34885a987ebea5537800d13918/d2/68a859a6/PolicyServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dde1bae3894eb86cd1bc896e18c43d8475d7d16bb049289b7f4e252c59e7d/IJwtAlgorithm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Constants/ApplicationRole.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Helper/Initializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Service/Auth/AuthService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -308,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723553741165</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Change system roles name. Add employee roles enum">
+      <option name="closed" value="true" />
+      <created>1723556137730</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723556137730</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +361,8 @@
     <MESSAGE value="Remove JWT nuggets" />
     <MESSAGE value="Add unauthorize redirection" />
     <MESSAGE value="Change username and password login to Email and password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change username and password login to Email and password" />
+    <MESSAGE value="Change system roles name. Add employee roles enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change system roles name. Add employee roles enum" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
