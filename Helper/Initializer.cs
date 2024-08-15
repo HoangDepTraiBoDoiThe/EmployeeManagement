@@ -1,26 +1,25 @@
 ﻿using EmployeeManagement.Constants;
-using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using EmployeeManagement.Context;
 using EmployeeManagement.models.ApplicationUserTables;
+using EmployeeManagement.Models.ApplicationUserTables.DTOs;
+using EmployeeManagement.Service.Interfaces;
 
 namespace EmployeeManagement.Helper
 {
     public class Initializer(
         RoleManager<IdentityRole> roleManager,
+        MyIdentityDbContext dbContext,
         UserManager<User> userManager,
+        IUserService userService,
         IConfiguration configuration)
     {
         public async Task SeedDataAsync()
         {
             await InitializeRolesAsync();
             await InitializeAdminAsync();
+            await InitializeEmployeesAsync();
         }
 
         private async Task InitializeRolesAsync()
@@ -57,9 +56,11 @@ namespace EmployeeManagement.Helper
                 throw new InvalidOperationException("Admin credentials are not properly configured.");
             }
 
-            var newAdmin = new User(adminName);
-            newAdmin.Email = adminEmail;
-            
+            var newAdmin = new User(adminName)
+            {
+                Email = adminEmail
+            };
+
             var result = await userManager.CreateAsync(newAdmin, adminPassword);
 
             if (!result.Succeeded)
@@ -68,6 +69,28 @@ namespace EmployeeManagement.Helper
             }
 
             await userManager.AddToRoleAsync(newAdmin, ApplicationRole.Admin.ToString());
+        }
+        private async Task InitializeEmployeesAsync()
+        {
+            IList<User> adminExists = await userManager.GetUsersInRoleAsync(ApplicationRole.Employee.ToString());
+            if (adminExists.Any())
+            {
+                return;
+            }
+
+            const string userName = "TestingEmployee";
+            const string email = "TestingEmployee@Gmail.com";
+            const string password = "123123123123";
+            
+            RegisterRequest registerRequest = new RegisterRequest()
+            {
+                UserName = userName,
+                Password = password,
+                Email = email,
+                PHoneNumber = "123123123",
+                StartDate = new DateOnly()
+            };
+            await userService.CreateEmployeesAsync(registerRequest);
         }
     }
 
