@@ -9,11 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="feat: add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes.&#10;&#10;This commit adds a user service and integrates it into the DI&#10;container. It also refactors the models to include default values&#10;and constructors for initializing objects.">
+    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="feat(api): add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constants/EmployeeRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Constants/EmployeeRole.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Doc/ER.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/ER.drawio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helper/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Initializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helper/StaticHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/StaticHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240812143446_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240812143446_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/MyIdentityDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/MyIdentityDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +230,7 @@
       <workItem from="1723171523345" duration="17370000" />
       <workItem from="1723427469796" duration="13432000" />
       <workItem from="1723689460557" duration="3510000" />
-      <workItem from="1723732663497" duration="2508000" />
+      <workItem from="1723732663497" duration="5208000" />
     </task>
     <task id="LOCAL-00004" summary="Implementing Jwt auth">
       <option name="closed" value="true" />
@@ -420,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723734520077</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat(api): add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes.">
+      <option name="closed" value="true" />
+      <created>1723735226856</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723735226856</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +461,6 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish refactoring" />
     <MESSAGE value="Int employee controller" />
     <MESSAGE value="Add syncfusion" />
     <MESSAGE value="Implementing Jwt auth" />
@@ -474,7 +485,8 @@
     <MESSAGE value="Add user service to DI" />
     <MESSAGE value="feat(db): modified initial data seeder. Using user service for init employee" />
     <MESSAGE value="feat: add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes.&#10;&#10;This commit adds a user service and integrates it into the DI&#10;container. It also refactors the models to include default values&#10;and constructors for initializing objects." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes.&#10;&#10;This commit adds a user service and integrates it into the DI&#10;container. It also refactors the models to include default values&#10;and constructors for initializing objects." />
+    <MESSAGE value="feat(api): add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(api): add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,6 +497,19 @@
           </properties>
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Helper/Initializer.cs</url>
+          <line>101</line>
+          <properties documentPath="F:\WebApp projects\MVC\EmployeeManagement\Helper\Initializer.cs" containingFunctionPresentation="Method 'InitializeJobs'">
+            <startOffsets>
+              <option value="3581" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3732" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

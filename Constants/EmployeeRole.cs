@@ -1,4 +1,6 @@
-﻿namespace EmployeeManagement.Constants;
+﻿using Syncfusion.EJ2.Maps;
+
+namespace EmployeeManagement.Constants;
 
 public enum EmployeeRole
 {

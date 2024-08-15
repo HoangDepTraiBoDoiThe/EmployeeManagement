@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using EmployeeManagement.Context;
 using EmployeeManagement.models.ApplicationUserTables;
 using EmployeeManagement.Models.ApplicationUserTables.DTOs;
+using EmployeeManagement.models.EmployeeTables;
 using EmployeeManagement.Service.Interfaces;
 
 namespace EmployeeManagement.Helper
@@ -13,6 +14,7 @@ namespace EmployeeManagement.Helper
         MyIdentityDbContext dbContext,
         UserManager<User> userManager,
         IUserService userService,
+        IJobService jobService,
         IConfiguration configuration)
     {
         public async Task SeedDataAsync()
@@ -20,6 +22,7 @@ namespace EmployeeManagement.Helper
             await InitializeRolesAsync();
             await InitializeAdminAsync();
             await InitializeEmployeesAsync();
+            await InitializeJobs();
         }
 
         private async Task InitializeRolesAsync()
@@ -91,6 +94,13 @@ namespace EmployeeManagement.Helper
                 StartDate = DateOnly.FromDateTime(DateTime.Now)
             };
             await userService.CreateEmployeesAsync(registerRequest);
+        }
+
+        private async Task InitializeJobs()
+        {
+            if (await jobService.IsJobsEmpty()) return;
+            var jobs = Enum.GetValues(typeof(EmployeeRole)).Cast<EmployeeRole>().Select(role => new Job(role.ToString(), StaticHelper.GetJobDescriptions()[role]));
+            await jobService.CreateNewJobs(jobs);
         }
     }
 }

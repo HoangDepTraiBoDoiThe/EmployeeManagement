@@ -128,10 +128,12 @@ namespace EmployeeManagement.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("RoleDescription")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("JobDescription")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
-                    b.Property<string>("RoleName")
+                    b.Property<string>("JobName")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
