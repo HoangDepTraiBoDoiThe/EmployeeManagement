@@ -9,16 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="feat(api): add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes.">
+    <list default="true" id="33dd40fe-ad75-4c32-9d46-8924a056b04b" name="Changes" comment="feat(service): app job service, init job data">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmployeeManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constants/EmployeeRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Constants/EmployeeRole.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/ER.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/ER.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Initializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper/StaticHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/StaticHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240812143446_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240812143446_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/MyIdentityDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/MyIdentityDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240815160444_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20240815160444_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/MyIdentityDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/JointTables/EmployeeJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/JointTables/EmployeeJob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/EmployeeTables/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/models/EmployeeTables/Employee.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,9 +91,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f18437be1eb24a14b8149d611be252c283908/fc/617dfbd4/SignInManager`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2cf1fedd4f34885a987ebea5537800d13918/d2/68a859a6/PolicyServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dde1bae3894eb86cd1bc896e18c43d8475d7d16bb049289b7f4e252c59e7d/IJwtAlgorithm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Constants/EmployeeRole.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Constants/EmployeeRole.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Helper/Initializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Helper/Initializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Helper/Initializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Migrations/MyIdentityDbContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/EmployeeTables/Employee.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/WebApp projects/MVC/EmployeeManagement/models/EmployeeTables/Employee.cs" root0="SKIP_HIGHLIGHTING" />
@@ -230,7 +230,7 @@
       <workItem from="1723171523345" duration="17370000" />
       <workItem from="1723427469796" duration="13432000" />
       <workItem from="1723689460557" duration="3510000" />
-      <workItem from="1723732663497" duration="5208000" />
+      <workItem from="1723732663497" duration="7441000" />
     </task>
     <task id="LOCAL-00004" summary="Implementing Jwt auth">
       <option name="closed" value="true" />
@@ -432,7 +432,39 @@
       <option name="project" value="LOCAL" />
       <updated>1723735226856</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat(database): re-migrating">
+      <option name="closed" value="true" />
+      <created>1723738129764</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723738129764</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat(other):">
+      <option name="closed" value="true" />
+      <created>1723738142846</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723738142846</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat(other):">
+      <option name="closed" value="true" />
+      <created>1723738153928</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723738153928</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat(service): app job service, init job data">
+      <option name="closed" value="true" />
+      <created>1723738191832</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723738191832</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,9 +493,6 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Int employee controller" />
-    <MESSAGE value="Add syncfusion" />
-    <MESSAGE value="Implementing Jwt auth" />
     <MESSAGE value="Implementing initial initializer" />
     <MESSAGE value="..." />
     <MESSAGE value="Refine - worked" />
@@ -486,7 +515,10 @@
     <MESSAGE value="feat(db): modified initial data seeder. Using user service for init employee" />
     <MESSAGE value="feat: add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes.&#10;&#10;This commit adds a user service and integrates it into the DI&#10;container. It also refactors the models to include default values&#10;and constructors for initializing objects." />
     <MESSAGE value="feat(api): add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(api): add user service and integrate it into DI&#10;&#10;Refactor models to include default values and constructor for&#10;initializing objects.&#10;&#10;Update ERD diagram to reflect database changes." />
+    <MESSAGE value="feat(database): re-migrating" />
+    <MESSAGE value="feat(other):" />
+    <MESSAGE value="feat(service): app job service, init job data" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(service): app job service, init job data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,19 +529,6 @@
           </properties>
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Helper/Initializer.cs</url>
-          <line>101</line>
-          <properties documentPath="F:\WebApp projects\MVC\EmployeeManagement\Helper\Initializer.cs" containingFunctionPresentation="Method 'InitializeJobs'">
-            <startOffsets>
-              <option value="3581" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3732" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

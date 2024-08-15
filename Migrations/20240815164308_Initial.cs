@@ -186,7 +186,8 @@ namespace EmployeeManagement.Migrations
                 name: "Employees",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     PhoneNumber = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: true),
                     EmployeeName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     StartDate = table.Column<DateOnly>(type: "date", nullable: false),
@@ -210,7 +211,7 @@ namespace EmployeeManagement.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    EmployeeId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    EmployeeId = table.Column<int>(type: "int", nullable: false),
                     EmployeeRoleId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
@@ -240,14 +241,15 @@ namespace EmployeeManagement.Migrations
                     LeaveEndDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     LeaveReason = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     WillBePunish = table.Column<bool>(type: "bit", nullable: false),
-                    EmployeeId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                    EmployeeId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    EmployeeId1 = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_OnLeaves", x => x.OnLeaveId);
                     table.ForeignKey(
-                        name: "FK_OnLeaves_Employees_EmployeeId",
-                        column: x => x.EmployeeId,
+                        name: "FK_OnLeaves_Employees_EmployeeId1",
+                        column: x => x.EmployeeId1,
                         principalTable: "Employees",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -613,9 +615,9 @@ namespace EmployeeManagement.Migrations
                 column: "WorkingHistoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_OnLeaves_EmployeeId",
+                name: "IX_OnLeaves_EmployeeId1",
                 table: "OnLeaves",
-                column: "EmployeeId");
+                column: "EmployeeId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PayRolls_EmployeeWageId",

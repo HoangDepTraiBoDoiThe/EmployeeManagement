@@ -16907,8 +16907,8 @@
     </schema>
     <schema id="5579" parent="5510" name="dbo">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-08-16.06:04:57.400</IntrospectionTimestamp>
-      <LastIntrospectionLocalTimestamp>2024-08-15.16:04:57</LastIntrospectionLocalTimestamp>
+      <IntrospectionTimestamp>2024-08-16.06:44:21.337</IntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-08-15.16:44:21</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="5580" parent="5510" name="guest">
@@ -16918,185 +16918,185 @@
       <ObjectId>4</ObjectId>
     </schema>
     <table id="5582" parent="5579" name="AspNetRoleClaims">
-      <CreatedTimestamp>2024-08-16.06:04:53.837</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.513</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.863</ModifiedTimestamp>
-      <ObjectId>1365579903</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.537</ModifiedTimestamp>
+      <ObjectId>450100644</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5583" parent="5579" name="AspNetRoles">
-      <CreatedTimestamp>2024-08-16.06:04:53.833</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.510</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.863</ModifiedTimestamp>
-      <ObjectId>1237579447</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.537</ModifiedTimestamp>
+      <ObjectId>322100188</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5584" parent="5579" name="AspNetUserClaims">
-      <CreatedTimestamp>2024-08-16.06:04:53.840</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.513</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.867</ModifiedTimestamp>
-      <ObjectId>1413580074</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.537</ModifiedTimestamp>
+      <ObjectId>498100815</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5585" parent="5579" name="AspNetUserLogins">
-      <CreatedTimestamp>2024-08-16.06:04:53.840</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.517</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.867</ModifiedTimestamp>
-      <ObjectId>1461580245</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.540</ModifiedTimestamp>
+      <ObjectId>546100986</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5586" parent="5579" name="AspNetUserRoles">
-      <CreatedTimestamp>2024-08-16.06:04:53.843</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.517</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.867</ModifiedTimestamp>
-      <ObjectId>1509580416</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.540</ModifiedTimestamp>
+      <ObjectId>594101157</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5587" parent="5579" name="AspNetUserTokens">
-      <CreatedTimestamp>2024-08-16.06:04:53.843</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.517</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.843</ModifiedTimestamp>
-      <ObjectId>1573580644</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.517</ModifiedTimestamp>
+      <ObjectId>658101385</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5588" parent="5579" name="AspNetUsers">
-      <CreatedTimestamp>2024-08-16.06:04:53.833</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.510</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>1269579561</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.543</ModifiedTimestamp>
+      <ObjectId>354100302</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5589" parent="5579" name="BaseShiftSchedules">
-      <CreatedTimestamp>2024-08-16.06:04:53.853</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.527</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.867</ModifiedTimestamp>
-      <ObjectId>1925581898</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.540</ModifiedTimestamp>
+      <ObjectId>1010102639</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5590" parent="5579" name="BaseWeakenSchedules">
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.523</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.867</ModifiedTimestamp>
-      <ObjectId>1829581556</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.540</ModifiedTimestamp>
+      <ObjectId>914102297</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5591" parent="5579" name="BaseWorkSchedules">
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.523</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>1781581385</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.540</ModifiedTimestamp>
+      <ObjectId>866102126</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5592" parent="5579" name="EmployeeJob">
-      <CreatedTimestamp>2024-08-16.06:04:53.847</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.873</ModifiedTimestamp>
-      <ObjectId>1669580986</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.543</ModifiedTimestamp>
+      <ObjectId>754101727</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5593" parent="5579" name="EmployeeWageMonthlyBonus">
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>2117582582</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.543</ModifiedTimestamp>
+      <ObjectId>1202103323</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5594" parent="5579" name="EmployeeWages">
-      <CreatedTimestamp>2024-08-16.06:04:53.853</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.527</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>1973582069</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.543</ModifiedTimestamp>
+      <ObjectId>1058102810</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5595" parent="5579" name="Employees">
-      <CreatedTimestamp>2024-08-16.06:04:53.847</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>1621580815</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.543</ModifiedTimestamp>
+      <ObjectId>706101556</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5596" parent="5579" name="Jobs">
-      <CreatedTimestamp>2024-08-16.06:04:53.833</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.510</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.847</ModifiedTimestamp>
-      <ObjectId>1301579675</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>386100416</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5597" parent="5579" name="MonthlyBonuses">
-      <CreatedTimestamp>2024-08-16.06:04:53.837</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.513</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.857</ModifiedTimestamp>
-      <ObjectId>1333579789</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>418100530</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5598" parent="5579" name="OnLeaveHistories">
-      <CreatedTimestamp>2024-08-16.06:04:53.853</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.527</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>2021582240</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.543</ModifiedTimestamp>
+      <ObjectId>1106102981</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5599" parent="5579" name="OnLeaves">
-      <CreatedTimestamp>2024-08-16.06:04:53.847</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>1733581214</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.543</ModifiedTimestamp>
+      <ObjectId>818101955</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5600" parent="5579" name="PayRolls">
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>34099162</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.543</ModifiedTimestamp>
+      <ObjectId>1266103551</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5601" parent="5579" name="ShiftBonuses">
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.870</ModifiedTimestamp>
-      <ObjectId>82099333</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.547</ModifiedTimestamp>
+      <ObjectId>1314103722</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5602" parent="5579" name="ShiftHistories">
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.873</ModifiedTimestamp>
-      <ObjectId>2069582411</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.547</ModifiedTimestamp>
+      <ObjectId>1154103152</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5603" parent="5579" name="ShiftPenalties">
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.873</ModifiedTimestamp>
-      <ObjectId>130099504</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.547</ModifiedTimestamp>
+      <ObjectId>1362103893</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5604" parent="5579" name="WorkOverTimes">
-      <CreatedTimestamp>2024-08-16.06:04:53.863</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.537</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.873</ModifiedTimestamp>
-      <ObjectId>242099903</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.550</ModifiedTimestamp>
+      <ObjectId>1474104292</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
     <table id="5605" parent="5579" name="WorkingDayHistories">
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.877</ModifiedTimestamp>
-      <ObjectId>178099675</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.550</ModifiedTimestamp>
+      <ObjectId>1410104064</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5606" parent="5579" name="WorkingHistories">
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.523</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.873</ModifiedTimestamp>
-      <ObjectId>1877581727</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.547</ModifiedTimestamp>
+      <ObjectId>962102468</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5607" parent="5579" name="__EFMigrationsHistory">
-      <CreatedTimestamp>2024-08-16.06:04:53.743</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-16.06:43:19.427</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-16.06:04:53.743</ModifiedTimestamp>
-      <ObjectId>1205579333</ObjectId>
+      <ModifiedTimestamp>2024-08-16.06:43:19.427</ModifiedTimestamp>
+      <ObjectId>290100074</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <column id="5608" parent="5582" name="Id">
@@ -17120,12 +17120,12 @@
     </column>
     <foreign-key id="5612" parent="5582" name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
       <ColNames>RoleId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.840</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.840</ModifiedTimestamp>
-      <ObjectId>1397580017</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.513</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.513</ModifiedTimestamp>
+      <ObjectId>482100758</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1237579447</RefTableId>
+      <RefTableId>322100188</RefTableId>
       <RefTableName>AspNetRoles</RefTableName>
     </foreign-key>
     <index id="5613" parent="5582" name="PK_AspNetRoleClaims">
@@ -17141,9 +17141,9 @@
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5615" parent="5582" name="PK_AspNetRoleClaims">
-      <CreatedTimestamp>2024-08-16.06:04:53.837</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.837</ModifiedTimestamp>
-      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.513</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.513</ModifiedTimestamp>
+      <ObjectId>466100701</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_AspNetRoleClaims</UnderlyingIndexName>
     </key>
@@ -17179,9 +17179,9 @@
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5622" parent="5583" name="PK_AspNetRoles">
-      <CreatedTimestamp>2024-08-16.06:04:53.833</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.833</ModifiedTimestamp>
-      <ObjectId>1253579504</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.510</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.510</ModifiedTimestamp>
+      <ObjectId>338100245</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_AspNetRoles</UnderlyingIndexName>
     </key>
@@ -17206,12 +17206,12 @@
     </column>
     <foreign-key id="5627" parent="5584" name="FK_AspNetUserClaims_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.840</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.840</ModifiedTimestamp>
-      <ObjectId>1445580188</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.513</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.513</ModifiedTimestamp>
+      <ObjectId>530100929</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1269579561</RefTableId>
+      <RefTableId>354100302</RefTableId>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
     <index id="5628" parent="5584" name="PK_AspNetUserClaims">
@@ -17227,9 +17227,9 @@
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5630" parent="5584" name="PK_AspNetUserClaims">
-      <CreatedTimestamp>2024-08-16.06:04:53.840</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.840</ModifiedTimestamp>
-      <ObjectId>1429580131</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.513</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.513</ModifiedTimestamp>
+      <ObjectId>514100872</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_AspNetUserClaims</UnderlyingIndexName>
     </key>
@@ -17254,12 +17254,12 @@
     </column>
     <foreign-key id="5635" parent="5585" name="FK_AspNetUserLogins_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.843</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.843</ModifiedTimestamp>
-      <ObjectId>1493580359</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.517</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.517</ModifiedTimestamp>
+      <ObjectId>578101100</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1269579561</RefTableId>
+      <RefTableId>354100302</RefTableId>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
     <index id="5636" parent="5585" name="PK_AspNetUserLogins">
@@ -17276,9 +17276,9 @@ ProviderKey</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5638" parent="5585" name="PK_AspNetUserLogins">
-      <CreatedTimestamp>2024-08-16.06:04:53.840</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.840</ModifiedTimestamp>
-      <ObjectId>1477580302</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.517</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.517</ModifiedTimestamp>
+      <ObjectId>562101043</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_AspNetUserLogins</UnderlyingIndexName>
     </key>
@@ -17294,22 +17294,22 @@ ProviderKey</ColNames>
     </column>
     <foreign-key id="5641" parent="5586" name="FK_AspNetUserRoles_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.843</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.843</ModifiedTimestamp>
-      <ObjectId>1557580587</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.517</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.517</ModifiedTimestamp>
+      <ObjectId>642101328</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1269579561</RefTableId>
+      <RefTableId>354100302</RefTableId>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
     <foreign-key id="5642" parent="5586" name="FK_AspNetUserRoles_AspNetRoles_RoleId">
       <ColNames>RoleId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.843</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.843</ModifiedTimestamp>
-      <ObjectId>1541580530</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.517</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.517</ModifiedTimestamp>
+      <ObjectId>626101271</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1237579447</RefTableId>
+      <RefTableId>322100188</RefTableId>
       <RefTableName>AspNetRoles</RefTableName>
     </foreign-key>
     <index id="5643" parent="5586" name="PK_AspNetUserRoles">
@@ -17326,9 +17326,9 @@ RoleId</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5645" parent="5586" name="PK_AspNetUserRoles">
-      <CreatedTimestamp>2024-08-16.06:04:53.843</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.843</ModifiedTimestamp>
-      <ObjectId>1525580473</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.517</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.517</ModifiedTimestamp>
+      <ObjectId>610101214</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_AspNetUserRoles</UnderlyingIndexName>
     </key>
@@ -17353,12 +17353,12 @@ RoleId</ColNames>
     </column>
     <foreign-key id="5650" parent="5587" name="FK_AspNetUserTokens_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.843</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.843</ModifiedTimestamp>
-      <ObjectId>1605580758</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>690101499</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1269579561</RefTableId>
+      <RefTableId>354100302</RefTableId>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
     <index id="5651" parent="5587" name="PK_AspNetUserTokens">
@@ -17371,9 +17371,9 @@ Name</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5652" parent="5587" name="PK_AspNetUserTokens">
-      <CreatedTimestamp>2024-08-16.06:04:53.843</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.843</ModifiedTimestamp>
-      <ObjectId>1589580701</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>674101442</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_AspNetUserTokens</UnderlyingIndexName>
     </key>
@@ -17463,9 +17463,9 @@ Name</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5671" parent="5588" name="PK_AspNetUsers">
-      <CreatedTimestamp>2024-08-16.06:04:53.833</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.833</ModifiedTimestamp>
-      <ObjectId>1285579618</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.510</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.510</ModifiedTimestamp>
+      <ObjectId>370100359</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_AspNetUsers</UnderlyingIndexName>
     </key>
@@ -17495,12 +17495,12 @@ Name</ColNames>
     </column>
     <foreign-key id="5677" parent="5589" name="FK_BaseShiftSchedules_BaseWeakenSchedules_ScheduleDayId">
       <ColNames>ScheduleDayId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.853</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.853</ModifiedTimestamp>
-      <ObjectId>1957582012</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.527</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.527</ModifiedTimestamp>
+      <ObjectId>1042102753</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1829581556</RefTableId>
+      <RefTableId>914102297</RefTableId>
       <RefTableName>BaseWeakenSchedules</RefTableName>
     </foreign-key>
     <index id="5678" parent="5589" name="PK_BaseShiftSchedules">
@@ -17516,9 +17516,9 @@ Name</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5680" parent="5589" name="PK_BaseShiftSchedules">
-      <CreatedTimestamp>2024-08-16.06:04:53.853</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.853</ModifiedTimestamp>
-      <ObjectId>1941581955</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.527</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.527</ModifiedTimestamp>
+      <ObjectId>1026102696</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_BaseShiftSchedules</UnderlyingIndexName>
     </key>
@@ -17539,12 +17539,12 @@ Name</ColNames>
     </column>
     <foreign-key id="5684" parent="5590" name="FK_BaseWeakenSchedules_BaseWorkSchedules_WorkScheduleId">
       <ColNames>WorkScheduleId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.850</ModifiedTimestamp>
-      <ObjectId>1861581670</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.523</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.523</ModifiedTimestamp>
+      <ObjectId>946102411</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1781581385</RefTableId>
+      <RefTableId>866102126</RefTableId>
       <RefTableName>BaseWorkSchedules</RefTableName>
     </foreign-key>
     <index id="5685" parent="5590" name="PK_BaseWeakenSchedules">
@@ -17560,9 +17560,9 @@ Name</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5687" parent="5590" name="PK_BaseWeakenSchedules">
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.850</ModifiedTimestamp>
-      <ObjectId>1845581613</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.523</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.523</ModifiedTimestamp>
+      <ObjectId>930102354</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_BaseWeakenSchedules</UnderlyingIndexName>
     </key>
@@ -17578,12 +17578,12 @@ Name</ColNames>
     </column>
     <foreign-key id="5690" parent="5591" name="FK_BaseWorkSchedules_EmployeeJob_EmployeeEmployeeRoleId">
       <ColNames>EmployeeEmployeeRoleId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.850</ModifiedTimestamp>
-      <ObjectId>1813581499</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.523</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.523</ModifiedTimestamp>
+      <ObjectId>898102240</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1669580986</RefTableId>
+      <RefTableId>754101727</RefTableId>
       <RefTableName>EmployeeJob</RefTableName>
     </foreign-key>
     <index id="5691" parent="5591" name="PK_BaseWorkSchedules">
@@ -17599,9 +17599,9 @@ Name</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5693" parent="5591" name="PK_BaseWorkSchedules">
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.850</ModifiedTimestamp>
-      <ObjectId>1797581442</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.523</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.523</ModifiedTimestamp>
+      <ObjectId>882102183</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_BaseWorkSchedules</UnderlyingIndexName>
     </key>
@@ -17611,7 +17611,7 @@ Name</ColNames>
       <Position>1</Position>
     </column>
     <column id="5695" parent="5592" name="EmployeeId">
-      <DasType>nvarchar(450 char)|0s</DasType>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
@@ -17622,22 +17622,22 @@ Name</ColNames>
     </column>
     <foreign-key id="5697" parent="5592" name="FK_EmployeeJob_Employees_EmployeeId">
       <ColNames>EmployeeId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.847</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.847</ModifiedTimestamp>
-      <ObjectId>1701581100</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>786101841</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1621580815</RefTableId>
+      <RefTableId>706101556</RefTableId>
       <RefTableName>Employees</RefTableName>
     </foreign-key>
     <foreign-key id="5698" parent="5592" name="FK_EmployeeJob_Jobs_EmployeeRoleId">
       <ColNames>EmployeeRoleId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.847</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.847</ModifiedTimestamp>
-      <ObjectId>1717581157</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>802101898</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1301579675</RefTableId>
+      <RefTableId>386100416</RefTableId>
       <RefTableName>Jobs</RefTableName>
     </foreign-key>
     <index id="5699" parent="5592" name="PK_EmployeeJob">
@@ -17658,9 +17658,9 @@ Name</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5702" parent="5592" name="PK_EmployeeJob">
-      <CreatedTimestamp>2024-08-16.06:04:53.847</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.847</ModifiedTimestamp>
-      <ObjectId>1685581043</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>770101784</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_EmployeeJob</UnderlyingIndexName>
     </key>
@@ -17676,22 +17676,22 @@ Name</ColNames>
     </column>
     <foreign-key id="5705" parent="5593" name="FK_EmployeeWageMonthlyBonus_EmployeeWages_EmployeeWagesId">
       <ColNames>EmployeeWagesId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.857</ModifiedTimestamp>
-      <ObjectId>2099048</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1234103437</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1973582069</RefTableId>
+      <RefTableId>1058102810</RefTableId>
       <RefTableName>EmployeeWages</RefTableName>
     </foreign-key>
     <foreign-key id="5706" parent="5593" name="FK_EmployeeWageMonthlyBonus_MonthlyBonuses_MonthlyBonusesMonthlyBonusId">
       <ColNames>MonthlyBonusesMonthlyBonusId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.857</ModifiedTimestamp>
-      <ObjectId>18099105</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1250103494</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>MonthlyBonusId</RefColNames>
-      <RefTableId>1333579789</RefTableId>
+      <RefTableId>418100530</RefTableId>
       <RefTableName>MonthlyBonuses</RefTableName>
     </foreign-key>
     <index id="5707" parent="5593" name="PK_EmployeeWageMonthlyBonus">
@@ -17708,9 +17708,9 @@ MonthlyBonusesMonthlyBonusId</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5709" parent="5593" name="PK_EmployeeWageMonthlyBonus">
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.857</ModifiedTimestamp>
-      <ObjectId>2133582639</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1218103380</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_EmployeeWageMonthlyBonus</UnderlyingIndexName>
     </key>
@@ -17736,12 +17736,12 @@ MonthlyBonusesMonthlyBonusId</ColNames>
     </column>
     <foreign-key id="5714" parent="5594" name="FK_EmployeeWages_WorkingHistories_WorkingHistoryId">
       <ColNames>WorkingHistoryId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.853</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.853</ModifiedTimestamp>
-      <ObjectId>2005582183</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.527</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.527</ModifiedTimestamp>
+      <ObjectId>1090102924</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1877581727</RefTableId>
+      <RefTableId>962102468</RefTableId>
       <RefTableName>WorkingHistories</RefTableName>
     </foreign-key>
     <index id="5715" parent="5594" name="PK_EmployeeWages">
@@ -17757,16 +17757,17 @@ MonthlyBonusesMonthlyBonusId</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5717" parent="5594" name="PK_EmployeeWages">
-      <CreatedTimestamp>2024-08-16.06:04:53.853</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.853</ModifiedTimestamp>
-      <ObjectId>1989582126</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.527</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.527</ModifiedTimestamp>
+      <ObjectId>1074102867</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_EmployeeWages</UnderlyingIndexName>
     </key>
     <column id="5718" parent="5595" name="Id">
-      <DasType>nvarchar(450 char)|0s</DasType>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <SequenceIdentity>1(2)</SequenceIdentity>
     </column>
     <column id="5719" parent="5595" name="PhoneNumber">
       <DasType>nvarchar(10 char)|0s</DasType>
@@ -17798,12 +17799,12 @@ MonthlyBonusesMonthlyBonusId</ColNames>
     </column>
     <foreign-key id="5725" parent="5595" name="FK_Employees_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.847</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.847</ModifiedTimestamp>
-      <ObjectId>1653580929</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>738101670</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1269579561</RefTableId>
+      <RefTableId>354100302</RefTableId>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
     <index id="5726" parent="5595" name="PK_Employees">
@@ -17820,9 +17821,9 @@ MonthlyBonusesMonthlyBonusId</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5728" parent="5595" name="PK_Employees">
-      <CreatedTimestamp>2024-08-16.06:04:53.847</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.847</ModifiedTimestamp>
-      <ObjectId>1637580872</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>722101613</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_Employees</UnderlyingIndexName>
     </key>
@@ -17849,9 +17850,9 @@ MonthlyBonusesMonthlyBonusId</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5733" parent="5596" name="PK_Jobs">
-      <CreatedTimestamp>2024-08-16.06:04:53.833</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.833</ModifiedTimestamp>
-      <ObjectId>1317579732</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.510</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.510</ModifiedTimestamp>
+      <ObjectId>402100473</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_Jobs</UnderlyingIndexName>
     </key>
@@ -17877,9 +17878,9 @@ MonthlyBonusesMonthlyBonusId</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5738" parent="5597" name="PK_MonthlyBonuses">
-      <CreatedTimestamp>2024-08-16.06:04:53.837</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.837</ModifiedTimestamp>
-      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.513</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.513</ModifiedTimestamp>
+      <ObjectId>434100587</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_MonthlyBonuses</UnderlyingIndexName>
     </key>
@@ -17914,12 +17915,12 @@ MonthlyBonusesMonthlyBonusId</ColNames>
     </column>
     <foreign-key id="5745" parent="5598" name="FK_OnLeaveHistories_WorkingHistories_WorkingHistoryId">
       <ColNames>WorkingHistoryId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.857</ModifiedTimestamp>
-      <ObjectId>2053582354</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1138103095</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1877581727</RefTableId>
+      <RefTableId>962102468</RefTableId>
       <RefTableName>WorkingHistories</RefTableName>
     </foreign-key>
     <index id="5746" parent="5598" name="PK_OnLeaveHistories">
@@ -17935,9 +17936,9 @@ MonthlyBonusesMonthlyBonusId</ColNames>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5748" parent="5598" name="PK_OnLeaveHistories">
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.857</ModifiedTimestamp>
-      <ObjectId>2037582297</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1122103038</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_OnLeaveHistories</UnderlyingIndexName>
     </key>
@@ -17971,438 +17972,443 @@ MonthlyBonusesMonthlyBonusId</ColNames>
       <Position>6</Position>
     </column>
     <column id="5755" parent="5599" name="EmployeeId">
-      <DasType>nvarchar(450 char)|0s</DasType>
+      <DasType>nvarchar(max)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <foreign-key id="5756" parent="5599" name="FK_OnLeaves_Employees_EmployeeId">
-      <ColNames>EmployeeId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.850</ModifiedTimestamp>
-      <ObjectId>1765581328</ObjectId>
+    <column id="5756" parent="5599" name="EmployeeId1">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="5757" parent="5599" name="FK_OnLeaves_Employees_EmployeeId1">
+      <ColNames>EmployeeId1</ColNames>
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>850102069</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1621580815</RefTableId>
+      <RefTableId>706101556</RefTableId>
       <RefTableName>Employees</RefTableName>
     </foreign-key>
-    <index id="5757" parent="5599" name="PK_OnLeaves">
+    <index id="5758" parent="5599" name="PK_OnLeaves">
       <Clustering>1</Clustering>
       <ColNames>OnLeaveId</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5758" parent="5599" name="IX_OnLeaves_EmployeeId">
-      <ColNames>EmployeeId</ColNames>
+    <index id="5759" parent="5599" name="IX_OnLeaves_EmployeeId1">
+      <ColNames>EmployeeId1</ColNames>
       <Position>2</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5759" parent="5599" name="PK_OnLeaves">
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.850</ModifiedTimestamp>
-      <ObjectId>1749581271</ObjectId>
+    <key id="5760" parent="5599" name="PK_OnLeaves">
+      <CreatedTimestamp>2024-08-16.06:43:19.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.520</ModifiedTimestamp>
+      <ObjectId>834102012</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_OnLeaves</UnderlyingIndexName>
     </key>
-    <column id="5760" parent="5600" name="Id">
+    <column id="5761" parent="5600" name="Id">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5761" parent="5600" name="PayDate">
+    <column id="5762" parent="5600" name="PayDate">
       <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5762" parent="5600" name="TotalEarnings">
+    <column id="5763" parent="5600" name="TotalEarnings">
       <DasType>decimal(18,2)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="5763" parent="5600" name="EmployeeWageId">
+    <column id="5764" parent="5600" name="EmployeeWageId">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <foreign-key id="5764" parent="5600" name="FK_PayRolls_EmployeeWages_EmployeeWageId">
+    <foreign-key id="5765" parent="5600" name="FK_PayRolls_EmployeeWages_EmployeeWageId">
       <ColNames>EmployeeWageId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>66099276</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1298103665</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1973582069</RefTableId>
+      <RefTableId>1058102810</RefTableId>
       <RefTableName>EmployeeWages</RefTableName>
     </foreign-key>
-    <index id="5765" parent="5600" name="PK_PayRolls">
+    <index id="5766" parent="5600" name="PK_PayRolls">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5766" parent="5600" name="IX_PayRolls_EmployeeWageId">
+    <index id="5767" parent="5600" name="IX_PayRolls_EmployeeWageId">
       <ColNames>EmployeeWageId</ColNames>
       <Position>2</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5767" parent="5600" name="PK_PayRolls">
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>50099219</ObjectId>
+    <key id="5768" parent="5600" name="PK_PayRolls">
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1282103608</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_PayRolls</UnderlyingIndexName>
     </key>
-    <column id="5768" parent="5601" name="Id">
+    <column id="5769" parent="5601" name="Id">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5769" parent="5601" name="Amount">
+    <column id="5770" parent="5601" name="Amount">
       <DasType>decimal(18,2)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5770" parent="5601" name="Reason">
+    <column id="5771" parent="5601" name="Reason">
       <DasType>nvarchar(100 char)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="5771" parent="5601" name="ShiftHistoryId">
+    <column id="5772" parent="5601" name="ShiftHistoryId">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <foreign-key id="5772" parent="5601" name="FK_ShiftBonuses_ShiftHistories_ShiftHistoryId">
+    <foreign-key id="5773" parent="5601" name="FK_ShiftBonuses_ShiftHistories_ShiftHistoryId">
       <ColNames>ShiftHistoryId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>114099447</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.533</ModifiedTimestamp>
+      <ObjectId>1346103836</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>2069582411</RefTableId>
+      <RefTableId>1154103152</RefTableId>
       <RefTableName>ShiftHistories</RefTableName>
     </foreign-key>
-    <index id="5773" parent="5601" name="PK_ShiftBonuses">
+    <index id="5774" parent="5601" name="PK_ShiftBonuses">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5774" parent="5601" name="IX_ShiftBonuses_ShiftHistoryId">
+    <index id="5775" parent="5601" name="IX_ShiftBonuses_ShiftHistoryId">
       <ColNames>ShiftHistoryId</ColNames>
       <Position>2</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5775" parent="5601" name="PK_ShiftBonuses">
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>98099390</ObjectId>
+    <key id="5776" parent="5601" name="PK_ShiftBonuses">
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.533</ModifiedTimestamp>
+      <ObjectId>1330103779</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_ShiftBonuses</UnderlyingIndexName>
     </key>
-    <column id="5776" parent="5602" name="Id">
+    <column id="5777" parent="5602" name="Id">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5777" parent="5602" name="Checkin">
+    <column id="5778" parent="5602" name="Checkin">
       <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5778" parent="5602" name="Checkout">
+    <column id="5779" parent="5602" name="Checkout">
       <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="5779" parent="5602" name="BaseStartTime">
+    <column id="5780" parent="5602" name="BaseStartTime">
       <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="5780" parent="5602" name="BaseEndTime">
+    <column id="5781" parent="5602" name="BaseEndTime">
       <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="5781" parent="5602" name="ShiftScheduleId">
+    <column id="5782" parent="5602" name="ShiftScheduleId">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <foreign-key id="5782" parent="5602" name="FK_ShiftHistories_BaseShiftSchedules_ShiftScheduleId">
+    <foreign-key id="5783" parent="5602" name="FK_ShiftHistories_BaseShiftSchedules_ShiftScheduleId">
       <ColNames>ShiftScheduleId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.857</ModifiedTimestamp>
-      <ObjectId>2101582525</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1186103266</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1925581898</RefTableId>
+      <RefTableId>1010102639</RefTableId>
       <RefTableName>BaseShiftSchedules</RefTableName>
     </foreign-key>
-    <index id="5783" parent="5602" name="PK_ShiftHistories">
+    <index id="5784" parent="5602" name="PK_ShiftHistories">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5784" parent="5602" name="IX_ShiftHistories_ShiftScheduleId">
+    <index id="5785" parent="5602" name="IX_ShiftHistories_ShiftScheduleId">
       <ColNames>ShiftScheduleId</ColNames>
       <Position>2</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5785" parent="5602" name="PK_ShiftHistories">
-      <CreatedTimestamp>2024-08-16.06:04:53.857</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.857</ModifiedTimestamp>
-      <ObjectId>2085582468</ObjectId>
+    <key id="5786" parent="5602" name="PK_ShiftHistories">
+      <CreatedTimestamp>2024-08-16.06:43:19.530</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.530</ModifiedTimestamp>
+      <ObjectId>1170103209</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_ShiftHistories</UnderlyingIndexName>
     </key>
-    <column id="5786" parent="5603" name="Id">
+    <column id="5787" parent="5603" name="Id">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5787" parent="5603" name="Amount">
+    <column id="5788" parent="5603" name="Amount">
       <DasType>decimal(18,2)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5788" parent="5603" name="Reason">
+    <column id="5789" parent="5603" name="Reason">
       <DasType>nvarchar(100 char)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="5789" parent="5603" name="WillBeDeducted">
+    <column id="5790" parent="5603" name="WillBeDeducted">
       <DasType>bit|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="5790" parent="5603" name="ShiftHistoryId">
+    <column id="5791" parent="5603" name="ShiftHistoryId">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <foreign-key id="5791" parent="5603" name="FK_ShiftPenalties_ShiftHistories_ShiftHistoryId">
+    <foreign-key id="5792" parent="5603" name="FK_ShiftPenalties_ShiftHistories_ShiftHistoryId">
       <ColNames>ShiftHistoryId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>162099618</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.533</ModifiedTimestamp>
+      <ObjectId>1394104007</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>2069582411</RefTableId>
+      <RefTableId>1154103152</RefTableId>
       <RefTableName>ShiftHistories</RefTableName>
     </foreign-key>
-    <index id="5792" parent="5603" name="PK_ShiftPenalties">
+    <index id="5793" parent="5603" name="PK_ShiftPenalties">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5793" parent="5603" name="IX_ShiftPenalties_ShiftHistoryId">
+    <index id="5794" parent="5603" name="IX_ShiftPenalties_ShiftHistoryId">
       <ColNames>ShiftHistoryId</ColNames>
       <Position>2</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5794" parent="5603" name="PK_ShiftPenalties">
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>146099561</ObjectId>
+    <key id="5795" parent="5603" name="PK_ShiftPenalties">
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.533</ModifiedTimestamp>
+      <ObjectId>1378103950</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_ShiftPenalties</UnderlyingIndexName>
     </key>
-    <column id="5795" parent="5604" name="Id">
+    <column id="5796" parent="5604" name="Id">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5796" parent="5604" name="StartTime">
+    <column id="5797" parent="5604" name="StartTime">
       <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5797" parent="5604" name="EndTime">
+    <column id="5798" parent="5604" name="EndTime">
       <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="5798" parent="5604" name="Description">
+    <column id="5799" parent="5604" name="Description">
       <DasType>nvarchar(max)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="5799" parent="5604" name="ShiftHistoryId">
+    <column id="5800" parent="5604" name="ShiftHistoryId">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <foreign-key id="5800" parent="5604" name="FK_WorkOverTimes_ShiftHistories_ShiftHistoryId">
+    <foreign-key id="5801" parent="5604" name="FK_WorkOverTimes_ShiftHistories_ShiftHistoryId">
       <ColNames>ShiftHistoryId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.863</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.863</ModifiedTimestamp>
-      <ObjectId>274100017</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.537</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.537</ModifiedTimestamp>
+      <ObjectId>1506104406</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>2069582411</RefTableId>
+      <RefTableId>1154103152</RefTableId>
       <RefTableName>ShiftHistories</RefTableName>
     </foreign-key>
-    <index id="5801" parent="5604" name="PK_WorkOverTimes">
+    <index id="5802" parent="5604" name="PK_WorkOverTimes">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5802" parent="5604" name="IX_WorkOverTimes_ShiftHistoryId">
+    <index id="5803" parent="5604" name="IX_WorkOverTimes_ShiftHistoryId">
       <ColNames>ShiftHistoryId</ColNames>
       <Position>2</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5803" parent="5604" name="PK_WorkOverTimes">
-      <CreatedTimestamp>2024-08-16.06:04:53.863</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.863</ModifiedTimestamp>
-      <ObjectId>258099960</ObjectId>
+    <key id="5804" parent="5604" name="PK_WorkOverTimes">
+      <CreatedTimestamp>2024-08-16.06:43:19.537</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.537</ModifiedTimestamp>
+      <ObjectId>1490104349</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_WorkOverTimes</UnderlyingIndexName>
     </key>
-    <column id="5804" parent="5605" name="Id">
+    <column id="5805" parent="5605" name="Id">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5805" parent="5605" name="DayOfWeek">
+    <column id="5806" parent="5605" name="DayOfWeek">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5806" parent="5605" name="DateTime">
+    <column id="5807" parent="5605" name="DateTime">
       <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="5807" parent="5605" name="WorkingHistoryId">
+    <column id="5808" parent="5605" name="WorkingHistoryId">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="5808" parent="5605" name="ShiftHistoryId">
+    <column id="5809" parent="5605" name="ShiftHistoryId">
       <DasType>nvarchar(450 char)|0s</DasType>
       <Position>5</Position>
     </column>
-    <foreign-key id="5809" parent="5605" name="FK_WorkingDayHistories_WorkingHistories_WorkingHistoryId">
+    <foreign-key id="5810" parent="5605" name="FK_WorkingDayHistories_WorkingHistories_WorkingHistoryId">
       <ColNames>WorkingHistoryId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>226099846</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.533</ModifiedTimestamp>
+      <ObjectId>1458104235</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1877581727</RefTableId>
+      <RefTableId>962102468</RefTableId>
       <RefTableName>WorkingHistories</RefTableName>
     </foreign-key>
-    <foreign-key id="5810" parent="5605" name="FK_WorkingDayHistories_ShiftHistories_ShiftHistoryId">
+    <foreign-key id="5811" parent="5605" name="FK_WorkingDayHistories_ShiftHistories_ShiftHistoryId">
       <ColNames>ShiftHistoryId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>210099789</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.533</ModifiedTimestamp>
+      <ObjectId>1442104178</ObjectId>
       <RefColNames>Id</RefColNames>
-      <RefTableId>2069582411</RefTableId>
+      <RefTableId>1154103152</RefTableId>
       <RefTableName>ShiftHistories</RefTableName>
     </foreign-key>
-    <index id="5811" parent="5605" name="PK_WorkingDayHistories">
+    <index id="5812" parent="5605" name="PK_WorkingDayHistories">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5812" parent="5605" name="IX_WorkingDayHistories_ShiftHistoryId">
+    <index id="5813" parent="5605" name="IX_WorkingDayHistories_ShiftHistoryId">
       <ColNames>ShiftHistoryId</ColNames>
       <Position>2</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5813" parent="5605" name="IX_WorkingDayHistories_WorkingHistoryId">
+    <index id="5814" parent="5605" name="IX_WorkingDayHistories_WorkingHistoryId">
       <ColNames>WorkingHistoryId</ColNames>
       <Position>3</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5814" parent="5605" name="PK_WorkingDayHistories">
-      <CreatedTimestamp>2024-08-16.06:04:53.860</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.860</ModifiedTimestamp>
-      <ObjectId>194099732</ObjectId>
+    <key id="5815" parent="5605" name="PK_WorkingDayHistories">
+      <CreatedTimestamp>2024-08-16.06:43:19.533</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.533</ModifiedTimestamp>
+      <ObjectId>1426104121</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_WorkingDayHistories</UnderlyingIndexName>
     </key>
-    <column id="5815" parent="5606" name="Id">
+    <column id="5816" parent="5606" name="Id">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5816" parent="5606" name="FromTime">
+    <column id="5817" parent="5606" name="FromTime">
       <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5817" parent="5606" name="ToTime">
+    <column id="5818" parent="5606" name="ToTime">
       <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="5818" parent="5606" name="BaseWorkScheduleId">
+    <column id="5819" parent="5606" name="BaseWorkScheduleId">
       <DasType>nvarchar(450 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <foreign-key id="5819" parent="5606" name="FK_WorkingHistories_BaseWorkSchedules_BaseWorkScheduleId">
+    <foreign-key id="5820" parent="5606" name="FK_WorkingHistories_BaseWorkSchedules_BaseWorkScheduleId">
       <ColNames>BaseWorkScheduleId</ColNames>
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.850</ModifiedTimestamp>
-      <ObjectId>1909581841</ObjectId>
+      <CreatedTimestamp>2024-08-16.06:43:19.527</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.527</ModifiedTimestamp>
+      <ObjectId>994102582</ObjectId>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
-      <RefTableId>1781581385</RefTableId>
+      <RefTableId>866102126</RefTableId>
       <RefTableName>BaseWorkSchedules</RefTableName>
     </foreign-key>
-    <index id="5820" parent="5606" name="PK_WorkingHistories">
+    <index id="5821" parent="5606" name="PK_WorkingHistories">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <index id="5821" parent="5606" name="IX_WorkingHistories_BaseWorkScheduleId">
+    <index id="5822" parent="5606" name="IX_WorkingHistories_BaseWorkScheduleId">
       <ColNames>BaseWorkScheduleId</ColNames>
       <Position>2</Position>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5822" parent="5606" name="PK_WorkingHistories">
-      <CreatedTimestamp>2024-08-16.06:04:53.850</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.850</ModifiedTimestamp>
-      <ObjectId>1893581784</ObjectId>
+    <key id="5823" parent="5606" name="PK_WorkingHistories">
+      <CreatedTimestamp>2024-08-16.06:43:19.523</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.523</ModifiedTimestamp>
+      <ObjectId>978102525</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_WorkingHistories</UnderlyingIndexName>
     </key>
-    <column id="5823" parent="5607" name="MigrationId">
+    <column id="5824" parent="5607" name="MigrationId">
       <DasType>nvarchar(150 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5824" parent="5607" name="ProductVersion">
+    <column id="5825" parent="5607" name="ProductVersion">
       <DasType>nvarchar(32 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="5825" parent="5607" name="PK___EFMigrationsHistory">
+    <index id="5826" parent="5607" name="PK___EFMigrationsHistory">
       <Clustering>1</Clustering>
       <ColNames>MigrationId</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5826" parent="5607" name="PK___EFMigrationsHistory">
-      <CreatedTimestamp>2024-08-16.06:04:53.747</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-16.06:04:53.747</ModifiedTimestamp>
-      <ObjectId>1221579390</ObjectId>
+    <key id="5827" parent="5607" name="PK___EFMigrationsHistory">
+      <CreatedTimestamp>2024-08-16.06:43:19.430</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-16.06:43:19.430</ModifiedTimestamp>
+      <ObjectId>306100131</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK___EFMigrationsHistory</UnderlyingIndexName>
     </key>
