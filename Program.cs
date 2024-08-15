@@ -1,11 +1,10 @@
-using System.Text;
 using EmployeeManagement.Context;
 using EmployeeManagement.Helper;
 using EmployeeManagement.models.ApplicationUserTables;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using EmployeeManagement.Service;
+using EmployeeManagement.Service.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +17,7 @@ builder.Services.AddDbContext<MyIdentityDbContext>(options => options.UseSqlServ
 builder.Services.AddDefaultIdentity<User>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
+    
     PasswordOptions passwordOptions = new PasswordOptions()
     {
         RequiredLength = 12,
@@ -43,6 +43,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 });
 builder.Services.AddAuthorization();
 builder.Services.AddTransient<Initializer>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
