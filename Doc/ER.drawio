@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.6">
   <diagram name="Trang-1" id="Bt6A5V-XEVuFtGxONGSO">
-    <mxGraphModel dx="1042" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1158" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,7 +335,7 @@
             <mxPoint x="995" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O5-Aam5vRArmxlNxaEpb-275" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="O5-Aam5vRArmxlNxaEpb-273" vertex="1" connectable="0">
+        <mxCell id="O5-Aam5vRArmxlNxaEpb-275" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="O5-Aam5vRArmxlNxaEpb-273" vertex="1" connectable="0">
           <mxGeometry x="-0.8427" relative="1" as="geometry">
             <mxPoint x="-4" as="offset" />
           </mxGeometry>
