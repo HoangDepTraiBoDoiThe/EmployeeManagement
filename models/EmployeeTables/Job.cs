@@ -10,7 +10,9 @@ public class Job
 
     [Required] 
     [StringLength(50, ErrorMessage = "50 characters maximum")]
-    public string RoleName { get; set; } = null!;
+    public string JobName { get; set; } = null!;
+    [Required] 
+    [StringLength(500, ErrorMessage = "500 characters maximum")]
     public string? RoleDescription { get; set; }
 
     // Many-to-many Employees

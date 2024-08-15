@@ -6,8 +6,7 @@ namespace EmployeeManagement.models.JointTables;
 
 public class EmployeeJob
 {
-    [Key]
-    public string Id { get; set; }
+    [Key] public string Id { get; set; } = Guid.NewGuid().ToString();
     
     // Many-to-one Employee
     public string EmployeeId { get; set; }

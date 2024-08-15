@@ -7,7 +7,7 @@ namespace EmployeeManagement.models.EmployeeTables;
 public class Employee
 {
     [Key] 
-    public string Id { get; set; }
+    public string Id { get; set; } = Guid.NewGuid().ToString();
 
     [DataType(DataType.PhoneNumber)]
     [StringLength(10, MinimumLength = 10, ErrorMessage = "Phone number must be 10 digits")]
@@ -33,4 +33,17 @@ public class Employee
 
     // Joint table - Many-to-many EmployeeJobs
     public List<Job> Jobs { get; } = [];
+
+    public Employee()
+    {
+    }
+
+    public Employee(string? phoneNumber, string employeeName, DateOnly startDate, string userId, User user)
+    {
+        PhoneNumber = phoneNumber;
+        EmployeeName = employeeName;
+        StartDate = startDate;
+        UserId = userId;
+        User = user;
+    }
 }
