@@ -9,7 +9,7 @@ public class EmployeeJob
     [Key] public string Id { get; set; } = Guid.NewGuid().ToString();
     
     // Many-to-one Employee
-    public string EmployeeId { get; set; }
+    public int EmployeeId { get; set; }
     [ForeignKey(nameof(EmployeeId))]
     public Employee Employee { get; set; } = null!;
     

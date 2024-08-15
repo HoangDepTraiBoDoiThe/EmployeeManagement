@@ -7,7 +7,8 @@ namespace EmployeeManagement.models.EmployeeTables;
 public class Employee
 {
     [Key] 
-    public string Id { get; set; } = Guid.NewGuid().ToString();
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
 
     [DataType(DataType.PhoneNumber)]
     [StringLength(10, MinimumLength = 10, ErrorMessage = "Phone number must be 10 digits")]
