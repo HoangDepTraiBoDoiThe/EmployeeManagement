@@ -42,7 +42,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.SlidingExpiration = true;
 });
 builder.Services.AddAuthorization();
-builder.Services.AddTransient<Initializer>();
+builder.Services.AddSingleton<Initializer>();
 builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();

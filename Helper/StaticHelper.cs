@@ -10,4 +10,11 @@ public static class StaticHelper
         var byNameAsync = await signInManager.UserManager.FindByEmailAsync(userEmail);
         return (object) byNameAsync == null ? SignInResult.Failed : await signInManager.PasswordSignInAsync(byNameAsync, password, isPersistent, lockoutOnFailure);
     }
+    
+    public static async Task SeedDataAsync(this IServiceProvider serviceProvider)
+    {
+        using var scope = serviceProvider.CreateScope();
+        Initializer initializer = scope.ServiceProvider.GetRequiredService<Initializer>();
+        await initializer.SeedDataAsync();
+    }
 }

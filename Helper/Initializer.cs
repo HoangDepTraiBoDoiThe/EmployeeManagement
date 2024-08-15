@@ -88,19 +88,9 @@ namespace EmployeeManagement.Helper
                 Password = password,
                 Email = email,
                 PHoneNumber = "123123123",
-                StartDate = new DateOnly()
+                StartDate = DateOnly.FromDateTime(DateTime.Now)
             };
             await userService.CreateEmployeesAsync(registerRequest);
-        }
-    }
-
-    public static class InitializerExtensions
-    {
-        public static async Task SeedDataAsync(this IServiceProvider serviceProvider)
-        {
-            using var scope = serviceProvider.CreateScope();
-            Initializer initializer = scope.ServiceProvider.GetRequiredService<Initializer>();
-            await initializer.SeedDataAsync();
         }
     }
 }
